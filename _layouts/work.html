@@ -17,10 +17,10 @@ layout: base
     {{ content }}
     <div class="previous-next">
       {% if page.previous.url %}
-        <a class="previous" href="{{page.previous.url}}">&laquo; Previous Project</a>
+        <a class="previous" href="{{page.previous.url | prepend:site.baseurl}}">&laquo; Previous Project</a>
       {% endif %}
       {% if page.next.url %}
-        <a class="next" href="{{page.next.url}}">Next Project &raquo;</a>
+        <a class="next" href="{{page.next.url | prepend:site.baseurl}}">Next Project &raquo;</a>
       {% endif %}
     </div>
   </div>
