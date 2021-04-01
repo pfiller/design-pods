@@ -1,0 +1,27 @@
+---
+layout: base
+---
+
+<main class="main-page">
+  <div class="split-section">
+    <div class="header-area">
+      <a href="/"><img src="/img/lp_smile.svg" width="47" height="auto" alt="Lindsay Podrid"></a>
+      <h1>Work</h1>
+    </div>
+    <div class="intro-section">
+      <h2>{{ page.title }}</h2>
+      {{ page.intro | markdownify }}
+    </div>
+  </div>
+  <div class="full-width-content work-slides">
+    {{ content }}
+    <div class="previous-next">
+      {% if page.previous.url %}
+        <a class="previous" href="{{page.previous.url}}">&laquo; Previous Project</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">Next Project &raquo;</a>
+      {% endif %}
+    </div>
+  </div>
+</main>

@@ -1,0 +1,21 @@
+---
+layout: page
+title: Work
+permalink: /work
+pagecssclass: background-orange tall-intro
+subhead: A few projects I've worked on.
+intro: |
+  <ul class="work-sort">
+    <li><a href="#" class="sort-digital">Digital</a></li>
+    <li><a href="#" class="sort-design">Design</a></li>
+    <li><a href="#" class="sort-creative">Creative Direction</a></li>
+  </ul>
+---
+
+<ul class="work-list">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}"><img src="/img/work/{{ post.thumb }}" alt="{{ post.title }}"></a>
+    </li>
+  {% endfor %}
+</ul>

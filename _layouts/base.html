@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/qmj8itv.css">
+    <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+  </head>
+
+  <body class="{% if page.pagecssclass %}{{ page.pagecssclass }}"{% else %}background-orange{% endif %}">
+    <div class="split-background">&nbsp;</div>
+    {{ content }}
+    <footer>
+      <ul class="contact-list">
+        <li><a href="https://www.instagram.com/lindsasaurus/"><img src="/img/instagram.svg" width="35" height="auto" alt="Follow me on Instagram"></li>
+        <li><a href="https://www.linkedin.com/in/lindsay-podrid-5a01765/"><img src="/img/linkedin.svg" width="35" height="auto" alt="Find me on LinkedIn"></a></li>
+        <li><a href="/contact"><img src="/img/mail.svg" width="35" height="auto" alt="Contact me via email"></a></li>
+      </ul>
+    </footer>
+    <a href="#" class="nav-burger burger-balloon"><img src="/img/hamburger.svg" width="50" height="auto"></a>
+    <nav id="siteNav">
+      <a href="" class="nav-burger burger-smile"><img src="/img/close_x.svg" width="50" height="auto"></a>
+      <ul class="section-nav">
+        <li><a href="/about">About</a></li>
+        <li><a href="/work">Work</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+      <ul class="contact-list">
+        <li><a href="https://www.instagram.com/lindsasaurus/"><img src="/img/instagram.svg" width="50" height="auto" alt="Follow me on Instagram"></li>
+        <li><a href="https://www.linkedin.com/in/lindsay-podrid-5a01765/"><img src="/img/linkedin.svg" width="50" height="auto" alt="Find me on LinkedIn"></a></li>
+        <li><a href="/contact"><img src="/img/mail.svg" width="50" height="auto" alt="Contact me via email"></a></li>
+      </ul>
+    </nav>
+    <script type="text/javascript">
+      const navtoggles = document.querySelectorAll(".nav-burger");
+      const navburger = document.getElementById("navburger");
+      const navigation = document.getElementById("siteNav");
+
+      function toggleNav(evt){
+        evt.preventDefault();
+        let currentNav = window.getComputedStyle(navigation).getPropertyValue('display');
+
+        if(currentNav=='none'){
+          navigation.style.display = 'block';
+          document.body.style.overflow = 'hidden';
+        }
+        else{
+          navigation.style.display = 'none';
+          document.body.style.overflow = 'auto';
+        }
+      }
+
+      for(let i=0; i<navtoggles.length; i+=1){
+        navtoggles[i].addEventListener("click", toggleNav);
+      }
+    </script>
+  </body>
+</html>
