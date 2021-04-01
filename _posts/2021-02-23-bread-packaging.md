@@ -13,6 +13,6 @@ intro: |
   The bread packaging incorporated brand elements like the wheat icon and color palette to create a clear visual language for the products while also showcasing what’s in the package.
 ---
 
-![](/img/work/IGA_1.jpg)
-![](/img/work/IGA_2.jpg)
-![](/img/work/IGA_3.jpg)
+![]({{ site.url }}/img/work/IGA_1.jpg)
+![]({{ site.url }}/img/work/IGA_2.jpg)
+![]({{ site.url }}/img/work/IGA_3.jpg)

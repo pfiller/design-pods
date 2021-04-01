@@ -8,7 +8,7 @@ tags:
 slug: a-website-for-earth
 thumb: eco_options_thumb.jpg
 intro: |
-  <img src="/img/work/thd.svg" width="57" height="auto">
+  <img src="../img/work/thd.svg" width="57" height="auto">
 
   <p class="work-services">Creative Direction<br>
   User Experience<br>
@@ -19,6 +19,6 @@ intro: |
   <a href="https://ecooptions.homedepot.com">Visit The Site</a>
 ---
 
-![](/img/work/eco_options_1.jpg)
-![](/img/work/eco_options_2.jpg)
-![](/img/work/eco_options_3.jpg)
+![]({{ site.url }}/img/work/eco_options_1.jpg)
+![]({{ site.url }}/img/work/eco_options_2.jpg)
+![]({{ site.url }}/img/work/eco_options_3.jpg)

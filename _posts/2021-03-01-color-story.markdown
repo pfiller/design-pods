@@ -6,7 +6,7 @@ tags:
 slug: color-story
 thumb: cs_thumb.jpg
 intro: |
-  <img src="/img/work/shaw_logo.svg" width="280" height="auto">
+  <img src="../img/work/shaw_logo.svg" width="280" height="auto">
 
   <p class="work-services">Creative Direction<br>
   Brochure<br>
@@ -23,6 +23,6 @@ intro: |
   @dkelleghan and @tropicophoto
 ---
 
-![](/img/work/cs_1.jpg)
-![](/img/work/cs_2.jpg)
-![](/img/work/cs_3.jpg)
+![]({{ site.url }}/img/work/cs_1.jpg)
+![]({{ site.url }}/img/work/cs_2.jpg)
+![]({{ site.url }}/img/work/cs_3.jpg)

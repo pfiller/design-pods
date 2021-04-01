@@ -6,7 +6,7 @@ tags:
 slug: a-new-concept-in-flooring
 thumb: inside_shapes_thumb.jpg
 intro: |
-  <img src="/img/work/shaw_logo.svg" width="280" height="auto">
+  <img src="../img/work/shaw_logo.svg" width="280" height="auto">
 
   <p class="work-services">Strategy<br>
   Art Direction<br>
@@ -19,10 +19,10 @@ intro: |
   The toolkit concept was new (and a little confusing), so it needed clear communication around how it worked but also giving designers and architects “permission to play.” The launch materials included everything from standard items like an Architect Folder and advertising to a showroom centered on the product and promotional materials.
 ---
 
-![](/img/work/IS_1.jpg)
-![](/img/work/IS_2.jpg)
-![](/img/work/IS_3.jpg)
-![](/img/work/IS_4.jpg)
-![](/img/work/IS_5.jpg)
-![](/img/work/IS_6.gif)
-![](/img/work/IS_7.jpg)
+![]({{ site.url }}/img/work/IS_1.jpg)
+![]({{ site.url }}/img/work/IS_2.jpg)
+![]({{ site.url }}/img/work/IS_3.jpg)
+![]({{ site.url }}/img/work/IS_4.jpg)
+![]({{ site.url }}/img/work/IS_5.jpg)
+![]({{ site.url }}/img/work/IS_6.gif)
+![]({{ site.url }}/img/work/IS_7.jpg)

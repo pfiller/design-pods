@@ -7,7 +7,7 @@ tags:
 slug: a-financial-portal-for-complex-accounts
 thumb: LO_thumb.jpg
 intro: |
-  <img src="/img/work/LO_logo.svg" width="156" height="auto">
+  <img src="../img/work/LO_logo.svg" width="156" height="auto">
 
   <p class="work-services">Strategy<br>
   User Experience<br>
@@ -18,7 +18,7 @@ intro: |
   This project was done with the bright folks at Swarm Agency.
 ---
 
-![](/img/work/LO_1.jpg)
-![](/img/work/LO_2.jpg)
-![](/img/work/LO_4.jpg)
-![](/img/work/LO_5.jpg)
+![]({{ site.url }}/img/work/LO_1.jpg)
+![]({{ site.url }}/img/work/LO_2.jpg)
+![]({{ site.url }}/img/work/LO_4.jpg)
+![]({{ site.url }}/img/work/LO_5.jpg)

@@ -7,7 +7,7 @@ tags:
 slug: a-landing-page-that-converts
 thumb: orkin_thumb.jpg
 intro: |
-  <img src="/img/work/Orkin.svg" width="100" height="auto">
+  <img src="../img/work/Orkin.svg" width="100" height="auto">
 
   <p class="work-services">Strategy<br>
   User Experience<br>
@@ -20,6 +20,6 @@ intro: |
   This project was done with the bright folks at Swarm Agency.
 ---
 
-![](/img/work/orkin_1.jpg)
-![](/img/work/orkin_2.jpg)
-![](/img/work/orkin_3.gif)
+![]({{ site.url }}/img/work/orkin_1.jpg)
+![]({{ site.url }}/img/work/orkin_2.jpg)
+![]({{ site.url }}/img/work/orkin_3.gif)
