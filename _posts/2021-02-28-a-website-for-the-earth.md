@@ -8,7 +8,7 @@ tags:
 slug: a-website-for-earth
 thumb: eco_options_thumb.jpg
 intro: |
-  <img src="../img/work/thd.svg" width="57" height="auto">
+  <img src="../img/work/THD.svg" width="57" height="auto">
 
   <p class="work-services">Creative Direction<br>
   User Experience<br>

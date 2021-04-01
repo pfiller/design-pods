@@ -6,7 +6,7 @@ tags:
 slug: sustainability-report
 thumb: thd_responsibility_thumb.jpg
 intro: |
-  <img src="../img/work/thd.svg" width="57" height="auto">
+  <img src="../img/work/THD.svg" width="57" height="auto">
 
   <p class="work-services">Design</p>
 
