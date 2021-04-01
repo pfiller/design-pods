@@ -13,6 +13,6 @@ intro: |
   The client requested that the logo keep their blue primary color. The original logo’s three circles were turned into three spikes to represent Science, Arts, and Entrepreneurship as well as allude to a form of a dragon, the school’s mascot. This logo was designed with my friends at Porchlight.
 ---
 
-![]({{ site.url }}/img/work/SAE_1.jpg)
-![]({{ site.url }}/img/work/SAE_2.jpg)
-![]({{ site.url }}/img/work/SAE_3.jpg)
+![](../img/work/SAE_1.jpg)
+![](../img/work/SAE_2.jpg)
+![](../img/work/SAE_3.jpg)

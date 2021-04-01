@@ -7,7 +7,7 @@
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
     <link rel="stylesheet" href="https://use.typekit.net/qmj8itv.css">
-    <link rel="stylesheet" type="text/css" media="all" href="{{ site.url }}/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="{{ site.baseurl }}/css/style.css" />
   </head>
 
   <body class="{% if page.pagecssclass %}{{ page.pagecssclass }}"{% else %}background-orange{% endif %}">
@@ -15,23 +15,23 @@
     {{ content }}
     <footer>
       <ul class="contact-list">
-        <li><a href="https://www.instagram.com/lindsasaurus/"><img src="{{ site.url }}/img/instagram.svg" width="35" height="auto" alt="Follow me on Instagram"></li>
-        <li><a href="https://www.linkedin.com/in/lindsay-podrid-5a01765/"><img src="{{ site.url }}/img/linkedin.svg" width="35" height="auto" alt="Find me on LinkedIn"></a></li>
-        <li><a href="{{ site.url }}/contact"><img src="{{ site.url }}/img/mail.svg" width="35" height="auto" alt="Contact me via email"></a></li>
+        <li><a href="https://www.instagram.com/lindsasaurus/"><img src="{{ site.baseurl }}/img/instagram.svg" width="35" height="auto" alt="Follow me on Instagram"></li>
+        <li><a href="https://www.linkedin.com/in/lindsay-podrid-5a01765/"><img src="{{ site.baseurl }}/img/linkedin.svg" width="35" height="auto" alt="Find me on LinkedIn"></a></li>
+        <li><a href="{{ site.baseurl }}/contact"><img src="{{ site.baseurl }}/img/mail.svg" width="35" height="auto" alt="Contact me via email"></a></li>
       </ul>
     </footer>
-    <a href="#" class="nav-burger burger-balloon"><img src="{{ site.url }}/img/hamburger.svg" width="50" height="auto"></a>
+    <a href="#" class="nav-burger burger-balloon"><img src="{{ site.baseurl }}/img/hamburger.svg" width="50" height="auto"></a>
     <nav id="siteNav">
-      <a href="" class="nav-burger burger-smile"><img src="{{ site.url }}/img/close_x.svg" width="50" height="auto"></a>
+      <a href="" class="nav-burger burger-smile"><img src="{{ site.baseurl }}/img/close_x.svg" width="50" height="auto"></a>
       <ul class="section-nav">
-        <li><a href="{{ site.url }}/about">About</a></li>
-        <li><a href="{{ site.url }}/work">Work</a></li>
-        <li><a href="{{ site.url }}/contact">Contact</a></li>
+        <li><a href="{{ site.baseurl }}/about">About</a></li>
+        <li><a href="{{ site.baseurl }}/work">Work</a></li>
+        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
       </ul>
       <ul class="contact-list">
-        <li><a href="https://www.instagram.com/lindsasaurus/"><img src="{{ site.url }}/img/instagram.svg" width="50" height="auto" alt="Follow me on Instagram"></li>
-        <li><a href="https://www.linkedin.com/in/lindsay-podrid-5a01765/"><img src="{{ site.url }}/img/linkedin.svg" width="50" height="auto" alt="Find me on LinkedIn"></a></li>
-        <li><a href="{{ site.url }}/contact"><img src="{{ site.url }}/img/mail.svg" width="50" height="auto" alt="Contact me via email"></a></li>
+        <li><a href="https://www.instagram.com/lindsasaurus/"><img src="{{ site.baseurl }}/img/instagram.svg" width="50" height="auto" alt="Follow me on Instagram"></li>
+        <li><a href="https://www.linkedin.com/in/lindsay-podrid-5a01765/"><img src="{{ site.baseurl }}/img/linkedin.svg" width="50" height="auto" alt="Find me on LinkedIn"></a></li>
+        <li><a href="{{ site.baseurl }}/contact"><img src="{{ site.baseurl }}/img/mail.svg" width="50" height="auto" alt="Contact me via email"></a></li>
       </ul>
     </nav>
     <script type="text/javascript">

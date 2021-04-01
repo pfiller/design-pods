@@ -11,6 +11,6 @@ intro: |
   Missing Intro
 ---
 
-![]({{ site.url }}/img/work/ww_site_1.jpg)
-![]({{ site.url }}/img/work/ww_site_2.jpg)
-![]({{ site.url }}/img/work/ww_site_3.jpg)
+![](../img/work/ww_site_1.jpg)
+![](../img/work/ww_site_2.jpg)
+![](../img/work/ww_site_3.jpg)

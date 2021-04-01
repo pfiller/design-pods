@@ -20,6 +20,6 @@ intro: |
   This project was done with the bright folks at Swarm Agency.
 ---
 
-![]({{ site.url }}/img/work/orkin_1.jpg)
-![]({{ site.url }}/img/work/orkin_2.jpg)
-![]({{ site.url }}/img/work/orkin_3.gif)
+![](../img/work/orkin_1.jpg)
+![](../img/work/orkin_2.jpg)
+![](../img/work/orkin_3.gif)

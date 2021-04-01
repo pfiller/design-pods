@@ -92,7 +92,7 @@ h2 {
   top: 50px;
 }
 .burger-balloon {
-  background-image: url("/img/balloon_nav.png");
+  background-image: url("{{ site.baseurl }}/img/balloon_nav.png");
   background-size: 100% 100%;
   display: block;
   height: 142px;
@@ -130,7 +130,7 @@ main {
 }
 
 .section-hometop {
-  background-image: url("/img/balloon_hero.png");
+  background-image: url("{{ site.baseurl }}/img/balloon_hero.png");
   background-position: bottom -100px center;
   background-repeat: no-repeat;
   background-size: 1440px 960px;

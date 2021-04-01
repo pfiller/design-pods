@@ -15,6 +15,6 @@ intro: |
   We wanted the report to have a real magazine feel with large images, graphic statistics, and plenty of “quick scan content.” The result was a bold and graphic book that made the social and environmental work Home Depot is doing stand out.
 ---
 
-![]({{ site.url }}/img/work/THD_SR_1.jpg)
-![]({{ site.url }}/img/work/THD_SR_2.jpg)
-![]({{ site.url }}/img/work/THD_SR_3.jpg)
+![](../img/work/THD_SR_1.jpg)
+![](../img/work/THD_SR_2.jpg)
+![](../img/work/THD_SR_3.jpg)

@@ -19,6 +19,6 @@ intro: |
   <a href="https://ecooptions.homedepot.com">Visit The Site</a>
 ---
 
-![]({{ site.url }}/img/work/eco_options_1.jpg)
-![]({{ site.url }}/img/work/eco_options_2.jpg)
-![]({{ site.url }}/img/work/eco_options_3.jpg)
+![](../img/work/eco_options_1.jpg)
+![](../img/work/eco_options_2.jpg)
+![](../img/work/eco_options_3.jpg)

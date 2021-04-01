@@ -23,6 +23,6 @@ intro: |
   @dkelleghan and @tropicophoto
 ---
 
-![]({{ site.url }}/img/work/cs_1.jpg)
-![]({{ site.url }}/img/work/cs_2.jpg)
-![]({{ site.url }}/img/work/cs_3.jpg)
+![](../img/work/cs_1.jpg)
+![](../img/work/cs_2.jpg)
+![](../img/work/cs_3.jpg)

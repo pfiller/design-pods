@@ -18,7 +18,7 @@ intro: |
   This project was done with the bright folks at Swarm Agency.
 ---
 
-![]({{ site.url }}/img/work/LO_1.jpg)
-![]({{ site.url }}/img/work/LO_2.jpg)
-![]({{ site.url }}/img/work/LO_4.jpg)
-![]({{ site.url }}/img/work/LO_5.jpg)
+![](../img/work/LO_1.jpg)
+![](../img/work/LO_2.jpg)
+![](../img/work/LO_4.jpg)
+![](../img/work/LO_5.jpg)
