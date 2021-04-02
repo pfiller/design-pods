@@ -8,9 +8,10 @@
 
 body {
   color: black;
-  font-size: 1.25em;
+  font-size: 18px;
   font-family: proxima-soft-condensed, sans-serif;
   font-weight: 500;
+  line-height: 1.38;
   text-align: center;
 }
 
@@ -43,12 +44,14 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 75px;
+  line-height: 1;
 }
 h2 {
   font-size: 35px;
   font-family: moret, serif;
   font-weight: 400;
   font-style: normal;
+  line-height: 1;
 }
 
 .page-home section {
@@ -76,7 +79,7 @@ h2 {
   max-width: 100%;
 }
 .work-slides {
-  padding: 55px 55px 0;
+  padding: 55px 25px 0;
 }
 .work-slides img { margin-bottom: 30px; }
 .work-slides p { margin: 0; }
@@ -206,6 +209,7 @@ nav {
   font-weight: 700;
   font-style: normal;
   font-size: 130px;
+  line-height: 1;
   margin: 0;
   padding: 0;
   position: fixed;
@@ -231,7 +235,7 @@ nav a:hover { color: #F9BAC0; }
   margin: 25px 0 0;
 }
 .intro-section {
-  padding: 50px 100px 0;
+  padding: 50px 25px 0;
   position: relative;
 }
 
@@ -263,7 +267,7 @@ nav a:hover { color: #F9BAC0; }
   flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
-  padding: 0 45px;
+  padding: 0 25px;
 }
 
 .work-list li {
@@ -281,7 +285,7 @@ nav a:hover { color: #F9BAC0; }
   text-transform: uppercase;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 800px) {
   body { text-align: left; }
   h1 {
     font-size: 130px;
@@ -329,11 +333,7 @@ nav a:hover { color: #F9BAC0; }
     flex-shrink: 0;
   }
   .intro-section {
-
     padding: 150px 100px 0;
-  }
-  .tall-intro .intro-section {
-
   }
 
   .about-hero {
