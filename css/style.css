@@ -79,7 +79,7 @@ h2 {
   max-width: 100%;
 }
 .work-slides {
-  padding: 55px 25px 0;
+  padding: 55px 0 0;
 }
 .work-slides img { margin-bottom: 30px; }
 .work-slides p { margin: 0; }
@@ -267,7 +267,7 @@ nav a:hover { color: #F9BAC0; }
   flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
-  padding: 0 25px;
+  padding: 0 10px;
 }
 
 .work-list li {
