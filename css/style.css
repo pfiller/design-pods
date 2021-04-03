@@ -3,10 +3,11 @@
 {% include_relative normalize.css %}
 
 :root {
-  --maximum-width: 1200px;
+  --maximum-width: 1440px;
 }
 
 body {
+  background: #FCE7E9;
   color: black;
   font-size: 18px;
   font-family: proxima-soft-condensed, sans-serif;
@@ -52,6 +53,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   line-height: 1;
+  margin: 0;
 }
 
 .page-home section {
@@ -288,10 +290,10 @@ nav a:hover { color: #F9BAC0; }
 @media (min-width: 800px) {
   body { text-align: left; }
   h1 {
-    font-size: 130px;
+    font-size: 9.35vw;
   }
   h2 {
-    font-size: 60px;
+    font-size: 4.15555vw;
   }
 
   .burger-balloon {
@@ -318,10 +320,10 @@ nav a:hover { color: #F9BAC0; }
   .split-background {
     background: white;
     height: 100%;
-    left: 45%;
+    left: 40%;
     position: fixed;
     top: 0;
-    width: 55%;
+    width: 60%;
     z-index: -2;
   }
   .page-home .split-background {
@@ -329,11 +331,11 @@ nav a:hover { color: #F9BAC0; }
   }
 
   .header-area {
-    width: 45%;
+    width: 40%;
     flex-shrink: 0;
   }
   .intro-section {
-    padding: 150px 100px 0;
+    padding: 170px 7% 0;
   }
 
   .about-hero {
@@ -354,5 +356,9 @@ nav a:hover { color: #F9BAC0; }
     margin: 10px 0;
     text-align: center;
   }
-}
 
+  .work-slides {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
