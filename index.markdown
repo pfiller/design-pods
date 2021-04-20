@@ -11,11 +11,12 @@ pagecssclass: page-home
   <div class="section-hometop">
     <img src="img/balloon_logo.png" width="250" height="267">
   </div>
+  <div class="balloon-hero"></div>
 
   <section class="section-intro">
     <div class="intro-flex">
-      <div><img src="img/me_thinking.png" width="425" height="608"></div>
-      <div>
+      <div class="center-image"><img src="img/me_thinking.png" width="176" height="252" class="it-me"></div>
+      <div class="intro-text">
         <h2>Designpods is<br>
         Lindsay Podrid</h2>
         <p>I&rsquo;m a freelance graphic desinger and doughnut eater doing good work with nice people. I like the color yellow, large balloons, and nnicely kerned type. I&rsquo;m currently working on a website redesign for a Fortune 50 company and a logo for my ficticious band, <em>Girl Squirrel</em>. Life and work are all about balance.</p>
@@ -25,9 +26,11 @@ pagecssclass: page-home
   </section>
 
   <section class="section-work-teaser">
-    <div>
-      <img src="img/doughnut_fallback.jpg">
-      <p>Work teaser here</p>
+    <div class="intro-flex">
+      <div class="center-image"><img src="img/doughnut_fallback.jpg" width="275" height="292"></div>
+      <div class="intro-text">
+        <h2>You’re here so you might as well look at some work.</h2>
+      </div>
     </div>
   </section>
 

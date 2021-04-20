@@ -57,11 +57,9 @@ h2 {
 }
 
 .page-home section {
-  width: 100%;
-}
-
-.page-home section div:first-child {
+  box-sizing: border-box;
   padding: 30px;
+  width: 100%;
 }
 
 .page-home section div:first-child {
@@ -116,17 +114,21 @@ h2 {
   background: #FCE7E9;
 }
 .page-home header {
+  align-items: center;
+  display: flex;
+  height: 495px;
+  justify-content: center;
   left: 0;
+  padding-top: 70px;
   position: fixed;
-  text-align: center;
   top: 0;
   width: 100%;
   z-index: -1;
 }
 
 .page-home header h1 {
-  font-size: 125px;
-  margin: 60px 0 0;
+  font-size: 16.75vw;
+  margin: 0;
   padding: 0;
 }
 
@@ -135,28 +137,38 @@ main {
 }
 
 .section-hometop {
-  background-image: url("{{ site.baseurl }}/img/balloon_hero.png");
-  background-position: bottom -100px center;
-  background-repeat: no-repeat;
-  background-size: 1440px 960px;
   height: 760px;
 }
 .section-hometop img {
-  left: 15%;
+  height: auto;
+  left: 15px;
   position: absolute;
-  top: 75px;
+  top: 25px;
+  width: 175px;
+}
+.balloon-hero {
+  background-image: url("{{ site.baseurl }}/img/balloon_hero_wide.png");
+  background-position: bottom -100px center;
+  background-repeat: no-repeat;
+  background-size: auto 960px;
+  height: 760px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 .section-intro {
   background: #FCF594;
 }
-.intro-flex {
-  align-items: center;
-  display: flex;
-  flex-direction: row-reverse;
+
+.center-image {
+  text-align: center;
 }
-.intro-flex div {
-  flex: 1;
+
+.it-me {
+  height: auto;
 }
+
 .section-work-teaser {
   background: white;
 }
@@ -294,6 +306,59 @@ nav a:hover { color: #F9BAC0; }
   }
   h2 {
     font-size: 4.15555vw;
+  }
+
+  .page-home header {
+    padding-top: 0px;
+  }
+
+  .page-home header h1 {
+    font-size: 12.75vw;
+  }
+
+  .page-home section {
+    padding: 30px 180px;
+  }
+
+  .section-hometop {
+    align-items: center;
+    display: flex;
+    height: 455px;
+    padding-bottom: 305px;
+  }
+
+  .section-hometop img {
+    left: 15px;
+    position: absolute;
+    top: 25px;
+    width: 250px;
+  }
+
+  .section-hometop img {
+    position: relative;
+    width: 250px;
+  }
+
+  .intro-flex {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .intro-flex div {
+    flex: 1;
+  }
+
+  .section-work-teaser .intro-flex {
+    flex-direction: row;
+  }
+
+  .it-me {
+    width: 325px;
+  }
+
+  .section-work-teaser img {
+    height: auto;
+    width: 100%;
   }
 
   .burger-balloon {
