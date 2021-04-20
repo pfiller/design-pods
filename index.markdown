@@ -14,8 +14,8 @@ pagecssclass: page-home
   <div class="balloon-hero"></div>
 
   <section class="section-intro">
-    <div class="intro-flex">
-      <div class="center-image"><img src="img/me_thinking.png" width="176" height="252" class="it-me"></div>
+    <div class="intro-flex flex-reverse">
+      <div class="center-image"><img src="img/me_thinking.svg" width="176" height="252" class="it-me"></div>
       <div class="intro-text">
         <h2>Designpods is<br>
         Lindsay Podrid</h2>
@@ -35,17 +35,34 @@ pagecssclass: page-home
   </section>
 
   <section class="section-work">
-    <div>
-      <p>If my calculations are correct, when this baby hits 88 miles per hour... you're gonna see some serious shit!</p>
+    <div class="intro-flex">
+      <div class="center-image"><img src="img/logo_bigger.svg" width="308" height="216"></div>
+      <div>
+        <h2>Let me make your logo bigger.</h2>
+        <p>One of the oldest graphic designers jokes is the client asking to make their logo bigger. The client asks, the designer sighs, the logo eventually ends up bigger. Let’s make a logo, and then let’s make it bigger.</p>
+        <p><a href="{{ site.baseurl }}/about" class="continue-link pink-link">Get Started</a></p>
+      </div>
     </div>
   </section>
 
   <section class="section-fullservice">
-    <div>
-      <h2>Abracadabra!<br>
-        I&rsquo;m a full-service Lindsay.</h2>
-      <p>If my calculations are correct, when this baby hits 88 miles per hour... you're gonna see some serious shit!</p>
-      <p><a href="{{ site.baseurl }}/about" class="continue-link">Read More</a></p>
+    <div class="intro-flex">
+      <div class="center-image magic-hat"><img src="img/rabbit_hat.svg" width="252" height="216"></div>
+      <div>
+        <h2>Abracadabra!<br>
+          I&rsquo;m a full-service Lindsay.</h2>
+        <ul>
+          <li>Strategy</li>
+          <li>Doughnut Eating</li>
+          <li>User Experience</li>
+          <li>Identity and Brand</li>
+          <li>Digital Design</li>
+          <li>Packaging</li>
+          <li>Art Direction</li>
+          <li>Presentation Design</li>
+        </ul>
+        <p><a href="{{ site.baseurl }}/services" class="continue-link">Read More</a></p>
+      </div>
     </div>
   </section>
 </main>

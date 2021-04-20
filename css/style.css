@@ -65,7 +65,9 @@ h2 {
 .page-home section div:first-child {
   margin: 0 auto;
   max-width: var(--maximum-width);
-  overflow: auto;
+}
+.page-home section div:first-child img {
+  margin-bottom: 15px;
 }
 .main-page {
   margin: 0 auto;
@@ -162,6 +164,8 @@ main {
 }
 
 .center-image {
+  box-sizing: border-box;
+  padding: 0 25px;
   text-align: center;
 }
 
@@ -175,9 +179,24 @@ main {
 .section-work {
   background: #ACD5AD;
 }
+.section-work .center-image { margin-bottom: 15px; }
 .section-fullservice {
   background: #F9BAC0
 }
+.section-fullservice ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px auto 0;
+  width: 60%;
+}
+.section-fullservice li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 49%;
+}
+
 .right-image {
   text-align: center;
 }
@@ -320,6 +339,12 @@ nav a:hover { color: #F9BAC0; }
     padding: 30px 180px;
   }
 
+  .page-home section div:first-child img {
+    height: auto;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
   .section-hometop {
     align-items: center;
     display: flex;
@@ -342,24 +367,33 @@ nav a:hover { color: #F9BAC0; }
   .intro-flex {
     align-items: center;
     display: flex;
+    flex-direction: row;
+  }
+  .flex-reverse {
     flex-direction: row-reverse;
   }
+
   .intro-flex div {
     flex: 1;
   }
 
-  .section-work-teaser .intro-flex {
-    flex-direction: row;
-  }
-
   .it-me {
-    width: 325px;
+    max-width: 325px;
   }
 
-  .section-work-teaser img {
-    height: auto;
+  .section-fullservice ul {
     width: 100%;
   }
+  .section-fullservice li {
+    text-align: left;
+    width: 32%;
+  }
+
+  .magic-hat {
+    align-self: flex-end;
+    margin-bottom: -30px;
+  }
+  .magic-hat img { max-width: 425px; }
 
   .burger-balloon {
     right: 40px;
