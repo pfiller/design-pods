@@ -15,7 +15,7 @@ pagecssclass: page-home
 
   <section class="section-intro">
     <div class="intro-flex flex-reverse">
-      <div class="center-image"><img src="img/me_thinking.svg" width="176" height="252" class="it-me"></div>
+      <div class="center-image"><img src="{{ site.baseurl }}/img/me_thinking.svg" width="176" height="252" class="it-me"></div>
       <div class="intro-text">
         <h2>Designpods is<br>
         Lindsay Podrid</h2>
@@ -27,7 +27,7 @@ pagecssclass: page-home
 
   <section class="section-work-teaser">
     <div class="intro-flex">
-      <div class="center-image"><img src="img/doughnut_fallback.jpg" width="275" height="292"></div>
+      <div class="center-image"><img src="{{ site.baseurl }}/img/doughnut_fallback.jpg" width="275" height="292"></div>
       <div class="intro-text">
         <h2>You’re here so you might as well look at some work.</h2>
       </div>
@@ -36,7 +36,7 @@ pagecssclass: page-home
 
   <section class="section-work">
     <div class="intro-flex">
-      <div class="center-image"><img src="img/logo_bigger.svg" width="308" height="216"></div>
+      <div class="center-image"><img src="{{ site.baseurl }}/img/logo_bigger.svg" width="308" height="216"></div>
       <div>
         <h2>Let me make your logo bigger.</h2>
         <p>One of the oldest graphic designers jokes is the client asking to make their logo bigger. The client asks, the designer sighs, the logo eventually ends up bigger. Let’s make a logo, and then let’s make it bigger.</p>
@@ -47,7 +47,7 @@ pagecssclass: page-home
 
   <section class="section-fullservice">
     <div class="intro-flex">
-      <div class="center-image magic-hat"><img src="img/rabbit_hat.svg" width="252" height="216"></div>
+      <div class="center-image magic-hat"><img src="{{ site.baseurl }}/img/rabbit_hat.svg" width="252" height="216"></div>
       <div>
         <h2>Abracadabra!<br>
           I&rsquo;m a full-service Lindsay.</h2>
