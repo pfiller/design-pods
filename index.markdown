@@ -38,7 +38,7 @@ pagecssclass: page-home
     <div class="intro-flex">
       <div class="center-image"><img src="{{ site.baseurl }}/img/logo_bigger.svg" width="308" height="216"></div>
       <div>
-        <h2>Let me make your logo bigger.</h2>
+        <h2>Let me make your <span>logo bigger.</span></h2>
         <p>One of the oldest graphic designers jokes is the client asking to make their logo bigger. The client asks, the designer sighs, the logo eventually ends up bigger. Let’s make a logo, and then let’s make it bigger.</p>
         <p><a href="{{ site.baseurl }}/about" class="continue-link pink-link">Get Started</a></p>
       </div>

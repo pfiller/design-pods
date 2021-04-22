@@ -184,17 +184,21 @@ main {
   background: #F9BAC0
 }
 .section-fullservice ul {
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
-  padding: 0;
   margin: 15px auto 0;
-  width: 60%;
+  max-width: 400px;
+  padding: 0;
+  width: 78%%
 }
 .section-fullservice li {
-  display: inline-block;
   margin: 0;
   padding: 0;
   text-align: center;
-  width: 49%;
+  flex-basis: 50%;
+  flex-shrink: 0;
+  width: 50%;
 }
 
 .right-image {
@@ -324,8 +328,9 @@ nav a:hover { color: #F9BAC0; }
     font-size: 9.35vw;
   }
   h2 {
-    font-size: 4.15555vw;
+    font-size: 3.75vw;
   }
+  h2 span { display: block; }
 
   .page-home header {
     padding-top: 0px;
@@ -336,7 +341,7 @@ nav a:hover { color: #F9BAC0; }
   }
 
   .page-home section {
-    padding: 30px 180px;
+    padding: 30px 9%;
   }
 
   .page-home section div:first-child img {
@@ -382,11 +387,15 @@ nav a:hover { color: #F9BAC0; }
   }
 
   .section-fullservice ul {
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 375px;
     width: 100%;
   }
   .section-fullservice li {
+    flex-basis: 33%;
     text-align: left;
-    width: 32%;
+    width: 33%;
   }
 
   .magic-hat {
