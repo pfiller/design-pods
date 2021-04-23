@@ -284,7 +284,7 @@ nav {
   font-family: moret, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 130px;
+  font-size: 26vw;
   line-height: 1;
   margin: 0;
   padding: 0;
@@ -368,6 +368,10 @@ nav a:hover { color: #F9BAC0; }
   }
   h2 {
     font-size: 3.75vw;
+  }
+
+  .section-nav {
+    font-size: 12vw;
   }
 
   .page-home header {
@@ -535,5 +539,11 @@ nav a:hover { color: #F9BAC0; }
   .work-slides {
     padding-left: 50px;
     padding-right: 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .section-nav {
+    font-size: 172px;
   }
 }
