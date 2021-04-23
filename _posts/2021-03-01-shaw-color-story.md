@@ -4,7 +4,7 @@ title:  Telling the Story of Color.
 tags:
 - creative direction
 slug: color-story
-thumb: cs_thumb.jpg
+thumb: color_story_thumb.jpg
 intro: |
   <img src="../img/work/shaw_logo.svg" width="280" height="auto">
 
