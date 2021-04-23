@@ -62,7 +62,7 @@ h2 {
   width: 100%;
 }
 
-.page-home section div:first-child {
+.page-home section .intro-flex {
   margin: 0 auto;
   max-width: var(--maximum-width);
 }
@@ -173,10 +173,17 @@ main {
 .section-work-teaser {
   background: white;
 }
-.section-work {
+.page-home .section-work {
   background: #ACD5AD;
+  margin-top: -620px;
+  padding-top: 650px;
 }
 .section-work .home-image { margin-bottom: 15px; }
+
+.work-samples div {
+  height: 381px;
+  margin-top: 20px;
+}
 
 .section-brands {
   background: white;
@@ -411,6 +418,29 @@ nav a:hover { color: #F9BAC0; }
 
   .intro-flex div {
     flex: 1;
+  }
+
+  .work-samples {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .work-samples div {
+    height: auto;
+    margin-top: 0px;
+    max-width: 381px;
+    width: 30%;
+  }
+
+  .work-samples img {
+    height: auto;
+    width: 100%;
+  }
+
+  .page-home .section-work {
+    margin-top: -230px;
+    padding-top: 260px;
   }
 
   .it-me {

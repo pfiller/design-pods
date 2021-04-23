@@ -32,6 +32,11 @@ pagecssclass: page-home
         <h2>You’re here so you might as well look at some work.</h2>
       </div>
     </div>
+    <div class="work-samples">
+      <div><a href="{{ site.baseurl }}{% post_url 2021-03-01-color-story %}"><img src="{{ site.baseurl }}/img/work/color_study_thumb.jpg" width="312" height="381"></a></div>
+      <div><a href="{{ site.baseurl }}{% post_url 2021-02-27-a-brand-new-napkin %}"><img src="{{ site.baseurl }}/img/work/vf_thumb.jpg" width="312" height="381"></a></div>
+      <div><a href="{{ site.baseurl }}{% post_url 2021-02-28-a-website-for-the-earth %}"><img src="{{ site.baseurl }}/img/work/eco_options_thumb.jpg" width="312" height="381"></a></div>
+    </div>
   </section>
 
   <section class="section-work">
