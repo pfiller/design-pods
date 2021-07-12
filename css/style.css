@@ -142,7 +142,12 @@ main {
   width:  100%;
   max-width: var(--maximum-width);
   text-align: right;
-  z-index: 100;
+  top:  0;
+  z-index: 1;
+}
+
+#siteNav {
+  z-index: 2;
 }
 
 .home-burger-balloon {
