@@ -111,17 +111,6 @@ main {
   width:  100%;
 }
 
-.burger-nav-box {
-  left:  0;
-  margin:  0 auto;
-  position: -webkit-sticky;
-  position: sticky;
-  width:  100%;
-  max-width: var(--maximum-width);
-  top:  0;
-  z-index: 100;
-}
-
 .home-intro {
   height: 340px;
   left:  0;
@@ -143,21 +132,31 @@ main {
 
 .home-image { text-align: center; }
 
+.burger-nav-box {
+  margin: 0 auto -142px;
+  position: -webkit-sticky;
+  position: sticky;
+  width:  100%;
+  max-width: var(--maximum-width);
+  text-align: right;
+  z-index: 100;
+}
+
 .home-burger-balloon {
   background-image: url("{{ site.baseurl }}/img/balloon_nav.png");
   background-size: 100% 100%;
-  display: block;
+  display: inline-block;
   height: 142px;
-  position: absolute;
-  right: 0px;
-  top: 16px;
+  margin-right:  3%;
+  margin-top: 16px;
+  position: relative;
   width: 139px;
 }
 .home-burger-balloon img {
   height:  auto;
-  left: 41px;
+  left: calc(50% - 25px);
   position: absolute;
-  top: 48px;
+  top: calc(50% - 25px);
   width: 50px;
 }
 .home-balloon-hero {
@@ -212,7 +211,7 @@ main {
   box-sizing: border-box;
   margin:  0 auto;
   max-width: var(--maximum-width);
-  padding:  39px 12%;
+  padding:  39px 5%;
 }
 
 .it-me {
@@ -428,13 +427,16 @@ nav a:hover { color: #F9BAC0; }
     height: 600px;
   }
   .home-intro h1 {
-    font-size: 180px;
+    font-size: 12.5vw;
     padding: 100px 0 0;
   }
   .logo-container img {
-    left: 79px;
+    margin-left: 79px;
     top: 129px;
     width: 334px;
+  }
+  .burger-nav-box {
+    margin-bottom:  -379px;
   }
   .home-burger-balloon {
     height: 379px;
@@ -443,7 +445,7 @@ nav a:hover { color: #F9BAC0; }
     width: 366px;
   }
   .home-burger-balloon img {
-    left: 128px;
+    left: calc(50% - 60px);
     position: absolute;
     top: 133px;
     width: 100px;
@@ -463,6 +465,10 @@ nav a:hover { color: #F9BAC0; }
     height: auto;
     margin-bottom: 0;
     width: 100%;
+  }
+
+  .section-container {
+    padding:  39px 12%;
   }
 
   .section-hometop {
@@ -616,5 +622,9 @@ nav a:hover { color: #F9BAC0; }
 @media (min-width: 1440px) {
   .section-nav {
     font-size: 172px;
+  }
+
+  .home-intro h1 {
+    font-size: 180px;
   }
 }
