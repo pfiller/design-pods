@@ -55,10 +55,13 @@ h2 {
   line-height: 1;
   margin: 0;
 }
+h2 span { display: block; }
+.big-sub {
+  font-size: 45px;
+}
 
 .home-image img {
   box-sizing: border-box;
-  padding: 0 25px;
   text-align: center;
   margin-bottom: 15px;
 }
@@ -179,9 +182,6 @@ main {
   height: auto;
   width: 142px;
 }
-.intro-text {
-  padding: 28px;
-}
 
 .section-hometop {
   height: 760px;
@@ -211,7 +211,7 @@ main {
   box-sizing: border-box;
   margin:  0 auto;
   max-width: var(--maximum-width);
-  padding:  39px 5%;
+  padding:  39px 10%;
 }
 
 .it-me {
@@ -257,7 +257,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   list-style-type: none;
-  margin: 15px auto 0;
+  margin: 15px 0 0;
   max-width: 632px;
   padding: 0;
 }
@@ -418,6 +418,10 @@ nav a:hover { color: #F9BAC0; }
   h2 {
     font-size: 65px;
   }
+  h2 span { display: inline; }
+  .big-sub {
+    font-size: 85px;
+  }
 
   .section-nav {
     font-size: 12vw;
@@ -464,11 +468,16 @@ nav a:hover { color: #F9BAC0; }
   .home-image img {
     height: auto;
     margin-bottom: 0;
+    padding: 0 25px;
     width: 100%;
   }
 
   .section-container {
-    padding:  39px 12%;
+    padding: 39px 12%;
+  }
+
+  .section-container-wide {
+    padding: 39px 10%;
   }
 
   .section-hometop {
@@ -501,6 +510,14 @@ nav a:hover { color: #F9BAC0; }
 
   .intro-flex div {
     flex: 1;
+  }
+  .intro-flex .narrow-image {
+    flex: .5;
+  }
+
+  .home-dough {
+    height: 530px;
+    width: 499px;
   }
 
   .work-samples {
