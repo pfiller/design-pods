@@ -36,6 +36,8 @@ a {
 a:hover {
   color: #FCF594;
 }
+.header-link { text-decoration: none; }
+.header-link:hover { color: black; }
 .pink-link:hover {
   color: #F9BAC0;
 }
