@@ -92,21 +92,6 @@ h2 span { display: block; }
   right: 45px;
   top: 50px;
 }
-.burger-balloon {
-  background-image: url("{{ site.baseurl }}/img/balloon_nav.png");
-  background-size: 100% 100%;
-  display: block;
-  height: 142px;
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  width: 139px;
-}
-.burger-balloon img {
-  left: 43px;
-  position: absolute;
-  top: 51px;
-}
 
 main {
   margin:  0 auto;
@@ -135,38 +120,35 @@ main {
 
 .home-image { text-align: center; }
 
-.burger-nav-box {
-  margin: 0 auto -142px;
-  position: -webkit-sticky;
-  position: sticky;
-  width:  100%;
-  max-width: var(--maximum-width);
-  text-align: right;
-  top:  0;
-  z-index: 1;
-}
-
 #siteNav {
   z-index: 2;
 }
 
-.home-burger-balloon {
+.burger-balloon {
   background-image: url("{{ site.baseurl }}/img/balloon_nav.png");
   background-size: 100% 100%;
   display: inline-block;
   height: 142px;
-  margin-right:  3%;
-  margin-top: 16px;
-  position: relative;
+  position: fixed;
+  right: 10px;
+  top: 16px;
   width: 139px;
+  z-index: 1;
 }
-.home-burger-balloon img {
+.burger-balloon img {
   height:  auto;
   left: calc(50% - 25px);
   position: absolute;
   top: calc(50% - 25px);
   width: 50px;
 }
+
+.home-burger-balloon {
+  height: 142px;
+  top: 38px;
+  width: 139px;
+}
+
 .home-balloon-hero {
   background-image: url("{{ site.baseurl }}/img/balloon_hero_wide.png");
   background-position: bottom -50px center;
@@ -444,18 +426,23 @@ nav a:hover { color: #F9BAC0; }
     top: 129px;
     width: 334px;
   }
-  .burger-nav-box {
-    margin-bottom:  -379px;
+  .burger-balloon {
+    height: 187px;
+    top: 40px;
+    width: 200px;
+  }
+  .burger-balloon img {
+    left: calc(50% - 35px);
+    top: 60px;
+    width: 65px;
   }
   .home-burger-balloon {
     height: 379px;
-    right: 50px;
     top: 50px;
     width: 366px;
   }
   .home-burger-balloon img {
     left: calc(50% - 60px);
-    position: absolute;
     top: 133px;
     width: 100px;
   }
@@ -577,10 +564,6 @@ nav a:hover { color: #F9BAC0; }
     max-width: 425px;
   }
 
-  .burger-balloon {
-    right: 40px;
-    top: 30px;
-  }
   .burger-smile {
     right: 90px;
     top: 70px;
@@ -644,5 +627,9 @@ nav a:hover { color: #F9BAC0; }
 @media (min-width: 1440px) {
   .home-intro h1 {
     font-size: 180px;
+  }
+
+  .burger-balloon {
+    right:  calc((100% - 1440px) / 2 + 10px)
   }
 }

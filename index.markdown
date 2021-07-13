@@ -1,11 +1,8 @@
 ---
 layout: base
-pagecssclass: new-home
+pagecssclass: home
 ---
 <main>
-  <div class="burger-nav-box">
-    <a href="#" class="js-nav-burger home-burger-balloon"><img src="{{ site.baseurl }}/img/hamburger.svg" width="50" height="auto"></a>
-  </div>
   <div class="home-intro">
     <h1>Look good<br>
       and be nice</h1>
