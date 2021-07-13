@@ -76,8 +76,17 @@ h2 span { display: block; }
   height: auto;
   max-width: 100%;
 }
+.back-to-all {
+  font-weight: bold;
+  position: sticky;
+  margin-left: 20px;
+  bottom: 35px;
+}
+.back-to-all a {
+  background:  white;
+}
 .work-slides {
-  padding: 55px 0 0;
+  padding: 55px 0 25px;
 }
 .work-slides img { margin-bottom: 30px; }
 .work-slides p { margin: 0; }
