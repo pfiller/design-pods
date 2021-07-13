@@ -1,10 +1,8 @@
 ---
 layout: work
-title: A Financial Portal <br>for Complex Accounts
-tags:
-- design
-- digital
-slug: a-financial-portal-for-complex-accounts
+title: Lima One Portal | Designpods
+headertext: A Financial Portal <br>for Complex Accounts
+slug: lima-one-portal
 thumb: LO_thumb.jpg
 intro: |
   <img src="../img/work/LO_logo.svg" width="156" height="auto">

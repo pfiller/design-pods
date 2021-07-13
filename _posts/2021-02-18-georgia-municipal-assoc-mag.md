@@ -1,9 +1,8 @@
 ---
 layout: work
-title: A Newspaper <br>Becomes A Magazine
-tags:
-- creative direction
-slug: a-newspaper-becomes-a-magazine
+title: Georgia Municipal Association Magazine | Designpods
+headertext: A Newspaper <br>Becomes A Magazine
+slug: gma-magazine
 thumb: gma_thumb.jpg
 intro: |
   <img src="../img/work/GMA_Logo.svg" width="167" height="auto">

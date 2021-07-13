@@ -1,9 +1,8 @@
 ---
 layout: work
-title: Product Offers Simplified
-tags:
-- design
-slug: project-offers-simplified
+title: Clover Brochure | Designpods
+headertext: Product Offers Simplified
+slug: clover-brochure
 thumb: clover_thumb.jpg
 intro: |
   <img src="../img/work/clover-logo.svg" width="157" height="auto">

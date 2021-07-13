@@ -1,9 +1,8 @@
 ---
 layout: work
-title: Carpet That Connects
-tags:
-- design
-slug: campus-collection
+title: Shaw Contract Campus | Designpods
+headertext: Carpet That Connects
+slug: shaw-campus
 thumb: sc_campus_thumb.jpg
 intro: |
   <img src="../img/work/shaw_logo.svg" width="280" height="auto">

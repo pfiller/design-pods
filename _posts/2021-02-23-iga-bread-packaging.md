@@ -1,9 +1,8 @@
 ---
 layout: work
-title: Bread Packaging
-tags:
-- design
-slug: bread-packaging
+title: IGA Packaging | Designpods
+headertext: Bread Packaging
+slug: iga-packaging
 thumb: iga_bread_thumb.jpg
 intro: |
   <p class="work-services">Design</p>

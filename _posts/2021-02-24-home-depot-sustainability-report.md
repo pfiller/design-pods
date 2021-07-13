@@ -1,9 +1,8 @@
 ---
 layout: work
-title:  Sustainability Report
-tags:
-- design
-slug: sustainability-report
+title:  Home Depot Sustainability Report | Designpods
+headertext:  Sustainability Report
+slug: home-despot-sustainability
 thumb: thd_responsibility_thumb.jpg
 intro: |
   <img src="../img/work/THD.svg" width="57" height="auto">

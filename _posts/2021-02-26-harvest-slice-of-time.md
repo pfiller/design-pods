@@ -1,10 +1,8 @@
 ---
 layout: work
-title:  A Slice of Time
-tags:
-- design
-- digital
-slug: a-slice-of-time
+title:  Harvest Website | Designpods
+headertext:  A Slice of Time
+slug: harvest-website
 thumb: harvest_thumb.jpg
 intro: |
   <img src="../img/work/harvest_logo.svg" width="187" height="auto">

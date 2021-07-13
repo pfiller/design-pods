@@ -1,9 +1,8 @@
 ---
 layout: work
-title:  A Brand New Napkin
-tags:
-- creative direction
-slug: a-brand-new-napkin
+title:  VF Product Launch | Designpods
+headertext: A Brand New Napkin
+slug: vf-product-launch
 thumb: vf_thumb.jpg
 intro: |
   <img src="../img/work/vf_logo.svg" width="106" height="auto">

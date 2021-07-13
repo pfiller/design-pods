@@ -1,9 +1,8 @@
 ---
 layout: work
-title:  Logo Redesign
-tags:
-- design
-slug: logo-resdesign
+title: SAE Branding | Designpods
+headertext: Logo Redesign
+slug: sae-branding
 thumb: sae_thumb.jpg
 intro: |
   <p class="work-services">Branding</p>

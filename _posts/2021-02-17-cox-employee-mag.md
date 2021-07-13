@@ -1,9 +1,8 @@
 ---
 layout: work
-title: An Employee Magazine That Engages
-tags:
-- creative direction
-slug: an-employee-magazine-that-engages
+title: Cox Enterprises Magazine | Designpods
+headertext: An Employee Magazine That Engages
+slug: cox-magazine
 thumb: cox_thumb.jpg
 intro: |
   <img src="../img/work/cox-logo.svg" width="145" height="auto">

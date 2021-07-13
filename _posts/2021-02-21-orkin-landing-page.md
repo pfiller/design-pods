@@ -1,10 +1,8 @@
 ---
 layout: work
-title: A Landing Page <br>That Converts
-tags:
-- design
-- digital
-slug: a-landing-page-that-converts
+title: Orking Landing Page | Designpods
+headertext: A Landing Page <br>That Converts
+slug: orkin-landing-page
 thumb: orkin_thumb.jpg
 intro: |
   <img src="../img/work/Orkin.svg" width="100" height="auto">

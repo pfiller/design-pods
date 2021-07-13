@@ -1,11 +1,8 @@
 ---
 layout: work
-title:  A Website <br>for the Earth
-tags:
-- creative direction
-- design
-- digital
-slug: a-website-for-earth
+title: Home Depot EcoActions | Designpods
+headertext: A Website <br>for the Earth
+slug: home-depot-ecoactions
 thumb: eco_options_thumb.jpg
 intro: |
   <img src="../img/work/THD.svg" width="57" height="auto">

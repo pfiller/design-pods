@@ -36,20 +36,20 @@ a {
 a:hover {
   color: #FCF594;
 }
-.header-link { text-decoration: none; }
+.header-link { text-decoration: none; display: block; margin-top: 25px }
 .header-link:hover { color: black; }
 .pink-link:hover {
   color: #F9BAC0;
 }
 
-h1 {
+h1, .header-link {
   font-family: moret, serif;
   font-weight: 700;
   font-style: normal;
   font-size: 75px;
   line-height: 1;
 }
-h2 {
+h2, .work-group {
   display: inline-block;
   font-size: 35px;
   font-family: moret, serif;
@@ -428,10 +428,10 @@ nav a:hover { color: #F9BAC0; }
 
 @media (min-width: 799px) {
   body { text-align: left; }
-  h1 {
+  h1, .header-link {
     font-size: 120px;
   }
-  h2 {
+  h2, .work-group {
     font-size: 65px;
   }
   .big-sub {
