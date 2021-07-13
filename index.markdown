@@ -15,7 +15,7 @@ pagecssclass: home
       <div class="intro-flex flex-reverse">
         <div class="home-image"><img src="{{ site.baseurl }}/img/me_thinking.svg" width="176" height="252" class="it-me"></div>
         <div>
-          <h2>Designpods is<wbr> <span>Lindsay Podrid</span></h2>
+          <h2>Designpods is <span>Lindsay Podrid</span></h2>
           <p>I&rsquo;m a freelance graphic desinger and doughnut eater doing good work with nice people. I like the color yellow, large balloons, and nnicely kerned type. I&rsquo;m currently working on a website redesign for a Fortune 50 company and a logo for my ficticious band, <em>Girl Squirrel</em>. Life and work are all about balance.</p>
           <p><a href="{{ site.baseurl }}/about" class="continue-link pink-link">Read More</a></p>
         </div>
@@ -28,7 +28,7 @@ pagecssclass: home
       <div class="intro-flex">
         <div class="narrow-image"><img src="{{ site.baseurl }}/img/doughnut_fallback.jpg" width="368" height="391" class="home-dough"></div>
         <div>
-          <h2 class="big-sub">You’re here so<wbr> you might as well<wbr> look at some work.</h2>
+          <h2 class="big-sub">You’re here so you might as well look at some work.</h2>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ pagecssclass: home
       <div class="intro-flex">
         <div class="home-image"><img src="{{ site.baseurl }}/img/logo_bigger.svg" width="308" height="216"></div>
         <div>
-          <h2>Let me make your<wbr> <span>logo bigger.</span></h2>
+          <h2>Let me make your <span>logo bigger.</span></h2>
           <p>One of the oldest graphic designers jokes is the client asking to make their logo bigger. The client asks, the designer sighs, the logo eventually ends up bigger. Let’s make a logo, and then let’s make it bigger.</p>
           <p><a href="{{ site.baseurl }}/about" class="continue-link pink-link">Get Started</a></p>
         </div>
@@ -63,7 +63,7 @@ pagecssclass: home
           <img src="{{ site.baseurl }}/img/pop_fallback_desktop.jpg" width="350" height="349">
         </div>
         <div>
-          <h2 class="big-sub">A few brands I’ve had<wbr> <span>the joy to work with</span></h2>
+          <h2 class="big-sub">A few brands I’ve had <span>the joy to work with</span></h2>
           <ul>
             <li><img src="{{ site.baseurl }}/img/work/THD.svg" width="44" height="auto"></li>
             <li><img src="{{ site.baseurl }}/img/work/GP_logo.svg" width="126" height="auto"></li>
