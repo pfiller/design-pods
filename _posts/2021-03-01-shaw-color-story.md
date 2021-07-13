@@ -1,6 +1,6 @@
 ---
 layout: work
-title:  Telling the Story of Color.
+title:  Telling the Story <br>of Color.
 tags:
 - creative direction
 slug: color-story
@@ -14,12 +14,12 @@ intro: |
 
   Shaw Contract launched three new collections at NeoCon 2019 that examined the impact of color in space: ReFrame, Dye Lab, and Gradation. For the launch, Shaw wanted to create a print piece that spoke to the narrative of color and which tied the collections together. For use in the print piece and showroom a series of photos we’re produced covering the topics of inspiration, discovery, process, and texture.
 
-  **Print Specs:**<br>
+  <strong>Print Specs:</strong><br>
   HP Indigo 12000<br>
   Neenah Classic Crest, 70T, Solar White, Eggshell<br>
   Silver Foil
 
-  **Photography:**<br>
+  <strong>Photography:</strong><br>
   @dkelleghan and @tropicophoto
 ---
 

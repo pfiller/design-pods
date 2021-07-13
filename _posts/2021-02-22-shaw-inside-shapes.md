@@ -1,6 +1,6 @@
 ---
 layout: work
-title: A New Concept In Flooring
+title: A New Concept <br>In Flooring
 tags:
 - design
 slug: a-new-concept-in-flooring

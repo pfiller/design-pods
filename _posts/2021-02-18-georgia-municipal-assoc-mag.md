@@ -1,10 +1,10 @@
 ---
 layout: work
-title: A Newspaper Becomes A Magazine
+title: A Newspaper <br>Becomes A Magazine
 tags:
 - creative direction
 slug: a-newspaper-becomes-a-magazine
-thumb: GMA_Thumbnail.jpg
+thumb: gma_thumb.jpg
 intro: |
   <img src="../img/work/GMA_Logo.svg" width="167" height="auto">
 
@@ -12,6 +12,8 @@ intro: |
   Editorial Design</p>
 
   The Georgia Municipal Association wanted to take their dated newspaper and update it to a more visual and modern magazine. The Georgia Municipal Association wanted to take their dated newspaper and update it to a more visual and contemporary magazine. The 52-page magazine is sent to members all over the state. The magazine needed to fill on brand and audience while still be engaging and easy to read.
+
+  <a href="#" class="cta-link">See the Digital Magazine</a>
 ---
 
 ![](../img/work/GMA_Magazine_1.jpg)
