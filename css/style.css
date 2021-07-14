@@ -133,6 +133,16 @@ h2 span { display: block; }
 .work-home .tall {
   height: 468px;
 }
+.work-intro h2 { position: relative; }
+.work-arrow {
+  background:  url('/design-pods/img/squiggles/arrow_animate.svg') no-repeat;
+  background-size: cover;
+  height: 61px;
+  right: -75px;
+  position: absolute;
+  width:  100px;
+  bottom: -30px;
+}
 
 .work-group {
   position: relative;
