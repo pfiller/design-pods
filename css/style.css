@@ -425,6 +425,7 @@ nav .contact-list {
   position: fixed;
   width: 100%;
 }
+nav a { text-decoration: none; }
 nav a:hover { color: #F9BAC0; }
 
 
