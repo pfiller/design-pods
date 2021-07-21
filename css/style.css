@@ -68,6 +68,7 @@ h2 span { display: block; }
 .main-page {
   margin: 0 auto;
   max-width: var(--maximum-width);
+  overflow-x: hidden;
   position: relative;
   z-index: 0;
 }
@@ -454,7 +455,9 @@ nav a:hover { color: #F9BAC0; }
 
 .about-hero {
   margin: -100px 0 0;
+  max-width: 200% !important;
   position: relative;
+  width: 200%;
   z-index: -1;
 }
 
@@ -700,7 +703,8 @@ nav a:hover { color: #F9BAC0; }
   }
 
   .about-hero {
-    margin: -500px 0 0 -100px;
+    margin: -350px 0 0;
+    width:  100%;
   }
   .contact-hero {
     margin-top: -500px;
