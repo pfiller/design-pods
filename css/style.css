@@ -159,9 +159,8 @@ h2 span { display: block; }
   position: sticky;
   margin-left: 20px;
   bottom: 35px;
-}
-.back-to-all a {
-  background:  white;
+  text-align: center;
+  width: 100%;
 }
 .work-slides {
   padding: 55px 0 25px;
