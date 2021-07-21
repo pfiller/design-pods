@@ -59,6 +59,7 @@ h2 span { display: block; }
 .big-sub {
   font-size: 45px;
 }
+h2 br { display: none; }
 
 .home-image img {
   box-sizing: border-box;
@@ -145,7 +146,6 @@ h2 span { display: block; }
 .work-group {
   position: relative;
 }
-.work-group br { display: none; }
 .work-group span {
   background:  url('/design-pods/img/squiggles/work-group.svg') no-repeat;
   background-size: 35% 35%;
@@ -461,6 +461,27 @@ nav a:hover { color: #F9BAC0; }
   z-index: -1;
 }
 
+.services-page {
+
+}
+.services-page ul {
+  list-style-type: none;
+  font-weight: bold;
+  margin-bottom: 50px;
+  padding-left:  0;
+}
+
+.subhead {
+  color: #ACD5AD;
+  text-transform: uppercase;
+}
+.sub-pink {
+  color:  #F9BAC0;
+}
+.sub-orange {
+  color:  #FDB927;
+}
+
 .work-sort {
   padding: 0;
   text-align: center;
@@ -509,6 +530,7 @@ nav a:hover { color: #F9BAC0; }
   h2, .work-group {
     font-size: 65px;
   }
+  h2 br { display: inline; }
   .big-sub {
     font-size: 85px;
   }
@@ -706,8 +728,9 @@ nav a:hover { color: #F9BAC0; }
     margin: -350px 0 0;
     width:  100%;
   }
-  .contact-hero {
-    margin-top: -500px;
+
+  .services-hero {
+    margin-top: -50%;
     width: 60%;
   }
 
@@ -736,7 +759,7 @@ nav a:hover { color: #F9BAC0; }
   }
 
 
-  .work-group br { display: inline; }
+  .work-group br, .services-page br { display: inline; }
   .work-group span {
     background-size: 100% 100%;
     left: -45px;
@@ -748,6 +771,10 @@ nav a:hover { color: #F9BAC0; }
     padding-left: 50px;
     padding-right: 50px;
   }
+}
+
+@media (max-width: 965px) {
+  .work-group br, .services-page br { display: none; }
 }
 
 @media (min-width: 1440px) {
