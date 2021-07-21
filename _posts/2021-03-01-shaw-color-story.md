@@ -25,3 +25,6 @@ intro: |
 ![](../img/work/cs_1.jpg)
 ![](../img/work/cs_2.jpg)
 ![](../img/work/cs_3.jpg)
+![](../img/work/cs_4.jpg)
+![](../img/work/cs_5.jpg)
+![](../img/work/cs_6.jpg)
