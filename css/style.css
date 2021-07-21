@@ -34,13 +34,10 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #FCF594;
+  color: #F9BAC0;
 }
 .header-link { text-decoration: none; display: block; margin-top: 25px }
 .header-link:hover { color: black; }
-.pink-link:hover {
-  color: #F9BAC0;
-}
 
 h1, .header-link {
   font-family: moret, serif;
@@ -370,11 +367,25 @@ main {
 }
 
 .continue-link {
+  background: white;
+  border:  1px solid #FFAEB7;
+  border-radius: 25px;
+  box-sizing: border-box;
+  color: #FFAEB7;
+  display: inline-block;
   font-size: 35px;
   font-family: moret, serif;
   font-weight: 400;
   font-style: normal;
+  padding: 5px 25px;
+  text-decoration: none;
 }
+.continue-link:hover {
+  background: #FFAEB7;
+  border-color: white;
+  color: white;
+}
+
 
 footer {
   background: #FCE7E9;

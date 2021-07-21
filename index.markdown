@@ -17,7 +17,7 @@ pagecssclass: home
         <div>
           <h2>Designpods is <span>Lindsay Podrid</span></h2>
           <p>I&rsquo;m a freelance graphic desinger and doughnut eater doing good work with nice people. I like the color yellow, large balloons, and nnicely kerned type. I&rsquo;m currently working on a website redesign for a Fortune 50 company and a logo for my ficticious band, <em>Girl Squirrel</em>. Life and work are all about balance.</p>
-          <p><a href="{{ site.baseurl }}/about" class="continue-link pink-link">Read More</a></p>
+          <p><a href="{{ site.baseurl }}/about" class="continue-link">Read More</a></p>
         </div>
       </div>
     </div>
@@ -50,7 +50,7 @@ pagecssclass: home
         <div>
           <h2>Let me make your <span>logo bigger.</span></h2>
           <p>One of the oldest graphic designers jokes is the client asking to make their logo bigger. The client asks, the designer sighs, the logo eventually ends up bigger. Let’s make a logo, and then let’s make it bigger.</p>
-          <p><a href="{{ site.baseurl }}/about" class="continue-link pink-link">Get Started</a></p>
+          <p><a href="{{ site.baseurl }}/about" class="continue-link">Get Started</a></p>
         </div>
       </div>
     </div>
