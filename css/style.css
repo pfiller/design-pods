@@ -148,11 +148,11 @@ h2 span { display: block; }
 .work-group span {
   background:  url('/design-pods/img/squiggles/work-group.svg') no-repeat;
   background-size: 35% 35%;
-  height: 110px;
-  left: -27px;
+  height: 135px;
+  left: -32px;
   position: absolute;
-  width:  100px;
-  top: -20px;
+  width:  142px;
+  top: -24px;
 }
 .back-to-all {
   font-weight: bold;
@@ -735,10 +735,9 @@ nav a:hover { color: #F9BAC0; }
   .work-group br { display: inline; }
   .work-group span {
     background-size: 100% 100%;
-    height: 110px;
     left: -45px;
-    width:  50px;
-    top: -50px;
+    width: 55px;
+    top: -60px;
   }
 
   .work-slides {
