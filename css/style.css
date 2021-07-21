@@ -222,7 +222,7 @@ main {
   position: fixed;
   right: 10px;
   top: 16px;
-  width: 139px;
+  width: 133px;
   z-index: 1;
 }
 .burger-balloon img {
@@ -519,7 +519,7 @@ nav a:hover { color: #F9BAC0; }
   .burger-balloon {
     height: 187px;
     top: 40px;
-    width: 200px;
+    width: 175px;
   }
   .burger-balloon img {
     left: calc(50% - 35px);
