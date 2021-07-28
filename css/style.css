@@ -437,17 +437,17 @@ nav {
   font-family: moret, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 18vw;
-  line-height: 1;
+  font-size: 18vh;
+  line-height: 1em;
   margin: 0;
   padding: 0;
   position: fixed;
-  top: 15%;
+  top: 10%;
   width: 100%;
 }
 nav ul { list-style-type: none; }
 nav .contact-list {
-  bottom: 5%;
+  bottom: 0;
   margin: 0 auto;
   position: fixed;
   width: 100%;
@@ -549,10 +549,6 @@ nav a:hover { color: #F9BAC0; }
   h2 br { display: inline; }
   .big-sub {
     font-size: 85px;
-  }
-
-  .section-nav {
-    font-size: 146px;
   }
 
   .home-intro {
