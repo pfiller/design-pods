@@ -50,7 +50,7 @@ pagecssclass: home
         <div>
           <h2>Let me make your <span>logo bigger.</span></h2>
           <p>One of the oldest graphic designers jokes is the client asking to make their logo bigger. The client asks, the designer sighs, the logo eventually ends up bigger. Let’s make a logo, and then let’s make it bigger.</p>
-          <p><a href="{{ site.baseurl }}/about" class="continue-link">Get Started</a></p>
+          <p><a href="mailto:lindsay@designpods.com" class="continue-link">Get Started</a></p>
         </div>
       </div>
     </div>
