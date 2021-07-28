@@ -303,6 +303,21 @@ main {
 }
 .section-work .home-image { margin-bottom: 15px; }
 
+
+.work-samples img {
+  border:  1px solid black;
+}
+
+.work-samples a {
+  display: inline-block;
+  transition: transform .25s ease-in-out;
+}
+.work-samples a:hover {
+  transform: rotate(5deg);
+}
+.work-samples .work-rotate-left:hover{
+  transform: rotate(-5deg);
+}
 .work-samples div {
   height: 381px;
   margin-top: 20px;
