@@ -15,7 +15,7 @@ intro: |
 
   The page was redesigned, putting a big priority on the form’s location in the hero and ease of accessing it from anywhere on the page by including a sticky CTA at the bottom of the browser window. The results were clear. Form fills increased by 109%.
 
-  This project was done with the bright folks at <a href="https://www.swarmagency.com">Swarm Agency</a>.
+  This project was done with the bright folks at <a href="https://www.swarmagency.com" target="_blank">Swarm Agency</a>.
 ---
 
 ![](../img/work/orkin_1.jpg)

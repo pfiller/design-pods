@@ -19,7 +19,7 @@ intro: |
   Silver Foil
 
   <strong>Photography:</strong><br>
-  @dkelleghan and @tropicophoto
+  <a href="https://www.instagram.com/dkelleghan/" target="_blank">@dkelleghan</a> and <a href="https://www.instagram.com/tropicophoto/" target="_blank">@tropicophoto</a>
 ---
 
 ![](../img/work/cs_1.jpg)

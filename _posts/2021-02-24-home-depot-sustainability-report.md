@@ -9,7 +9,7 @@ intro: |
 
   <p class="work-services">Design</p>
 
-  I worked with my friends at <a href="https://www.porchlightatl.com">Porchlight</a> to help design the 2017 Home Depot Sustainability Report.
+  I worked with my friends at <a href="https://www.porchlightatl.com" target="_blank">Porchlight</a> to help design the 2017 Home Depot Sustainability Report.
 
   We wanted the report to have a real magazine feel with large images, graphic statistics, and plenty of “quick scan content.” The result was a bold and graphic book that made the social and environmental work Home Depot is doing stand out.
 ---

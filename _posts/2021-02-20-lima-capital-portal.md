@@ -13,7 +13,7 @@ intro: |
 
   Lima One wanted to create an all-new online customer experience with the same service level as their in-person experience. The portal had to have a great user experience for lots of different customer personas and was ideated from the ground up using customer feedback to drive the UI. The new portal was built on the latest and greatest from Salesforce and changed how their investors can borrow money.
 
-  This project was done with the bright folks at <a href="https://www.swarmagency.com">Swarm Agency</a>.
+  This project was done with the bright folks at <a href="https://www.swarmagency.com" target="_blank">Swarm Agency</a>.
 ---
 
 ![](../img/work/LO_1.jpg)

@@ -157,11 +157,11 @@ h2 br { display: none; }
 }
 .back-to-all {
   font-weight: bold;
-  position: sticky;
-  margin-left: 20px;
-  bottom: 35px;
+  position: fixed;
+  bottom: 145px;
   text-align: center;
   width: 100%;
+  z-index: 2;
 }
 .work-slides {
   padding: 55px 0 25px;
