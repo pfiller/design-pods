@@ -20,14 +20,17 @@ body {
 .background-pink {
   background: rgb(255,255,255);
   background: linear-gradient(180deg, rgba(252,231,233,1) 500px, white 700px, white);
+  background-repeat: no-repeat;
 }
 .background-green {
   background: rgb(255,255,255);
   background: linear-gradient(180deg, rgba(172, 213, 173,1) 300px, white 700px, white);
+  background-repeat: no-repeat;
 }
 .background-orange {
   background: rgb(255,255,255);
   background: linear-gradient(180deg, rgba(254, 234, 191,1) 300px, white 700px, white);
+  background-repeat: no-repeat;
 }
 
 a {
