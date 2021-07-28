@@ -538,7 +538,7 @@ nav a:hover { color: #F9BAC0; }
   text-transform: uppercase;
 }
 
-@media (min-width: 799px) {
+@media (min-width: 801px) {
   body { text-align: left; }
   h1, .header-link {
     font-size: 120px;
