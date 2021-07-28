@@ -473,11 +473,19 @@ nav a:hover { color: #F9BAC0; }
 }
 
 .about-hero {
-  margin: -100px 0 0;
+  margin: -100px 0 0 -50px;
   max-width: 200% !important;
   position: relative;
   width: 200%;
   z-index: -1;
+}
+.about-yellow-bar {
+  background: #FFF58F;
+  height: 20vw;
+  position: relative;
+  margin-top: -14vw;
+  width: 100%;
+  z-index: -2;
 }
 
 .services-page {
@@ -743,6 +751,11 @@ nav a:hover { color: #F9BAC0; }
     margin: -350px 0 0;
     width:  100%;
   }
+  .about-yellow-bar {
+    height: 12vw;
+    margin-top: -7vw;
+    max-height: 150px;
+  }
 
   .services-hero {
     margin-top: -50%;
@@ -793,11 +806,27 @@ nav a:hover { color: #F9BAC0; }
 }
 
 @media (min-width: 1440px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
   .home-intro h1 {
     font-size: 180px;
   }
 
   .burger-balloon {
     right:  calc((100% - 1440px) / 2 + 10px)
+  }
+
+  .main-page {
+    overflow-x: visible;
+  }
+
+  .about-yellow-bar {
+    height: 150px;
+    margin-left: calc(-50vw + 50%);
+    margin-top: -100px;
+    width: 100vw;
   }
 }
