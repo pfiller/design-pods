@@ -22,3 +22,5 @@ intro: |
 ![](../img/work/shaw_campus_2.jpg)
 ![](../img/work/shaw_campus_3.jpg)
 ![](../img/work/shaw_campus_4.jpg)
+![](../img/work/shaw_campus_5.jpg)
+![](../img/work/shaw_campus_6.jpg)
