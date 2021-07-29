@@ -63,7 +63,9 @@ h2 span { display: block; }
 .big-sub {
   font-size: 45px;
 }
+
 h2 br { display: none; }
+.always-show { display: inline; }
 
 .home-image img {
   box-sizing: border-box;
@@ -336,6 +338,25 @@ main {
   height: auto;
 }
 
+.home-dough {
+  position: relative;
+}
+.home-dough > img {
+  height: auto;
+  width: 100%;
+}
+.home-dough > div {
+  position: absolute;
+}
+.dough-sq-1 {
+  bottom: 30px;
+  left: 20px;
+}
+.dough-sq-2 {
+  top: 10px;
+  right: 20px;
+}
+
 .section-work-teaser {
   background: white;
 }
@@ -605,6 +626,8 @@ nav a:hover { color: #F9BAC0; }
   .big-sub {
     font-size: 85px;
   }
+  .big-sub span { display: inline; }
+
   .services-page h1 {
     font-size: 10vw;
   }
@@ -680,14 +703,15 @@ nav a:hover { color: #F9BAC0; }
     flex: .5;
   }
 
-  .home-dough {
-    height: 530px;
-    width: 499px;
-  }
-
   .back-to-all {
     padding-left: 100px;
     text-align: left;
+  }
+
+  .dough-sq-1 img, .dough-sq-2 img {
+    height: auto;
+    width: 4vw;
+    max-width: 66px;
   }
 
   .work-samples {

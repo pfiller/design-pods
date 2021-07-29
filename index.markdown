@@ -26,7 +26,11 @@ pagecssclass: home
   <section class="section-work-teaser">
     <div class="section-container section-container-wide">
       <div class="intro-flex">
-        <div class="narrow-image"><img src="{{ site.baseurl }}/img/doughnut_fallback.jpg" width="368" height="391" class="home-dough"></div>
+        <div class="home-dough">
+          <img src="{{ site.baseurl }}/img/doughnut.gif" width="508" height="540">
+          <div class="dough-sq-1"><img src="{{ site.baseurl }}/img/squiggles/line_star.svg" width="60" height="77"></div>
+          <div class="dough-sq-2"><img src="{{ site.baseurl }}/img/squiggles/group_3.svg" width="60" height="77"></div>
+        </div>
         <div>
           <h2 class="big-sub">You’re here so you might as well look at some work.</h2>
         </div>
@@ -87,7 +91,7 @@ pagecssclass: home
       <div class="intro-flex flex-reverse">
         <div class="home-image magic-hat"><img src="{{ site.baseurl }}/img/rabbit_hat_annimate.svg" width="252" height="auto"></div>
         <div>
-          <h2>Abracadabra!<br>
+          <h2>Abracadabra!<br class="always-show">
             I&rsquo;m a full-service Lindsay.</h2>
           <ul>
             <li>Strategy</li>
