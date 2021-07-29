@@ -462,7 +462,7 @@ nav {
   font-family: moret, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 18vh;
+  font-size: 15vh;
   line-height: 1em;
   margin: 0;
   padding: 0;
@@ -723,6 +723,10 @@ nav a:hover { color: #F9BAC0; }
   .burger-smile {
     right: 90px;
     top: 70px;
+  }
+
+  .section-nav {
+    font-size: 18vh;
   }
 
   footer {
