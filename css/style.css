@@ -351,6 +351,8 @@ main {
 
 .work-samples a {
   display: inline-block;
+  box-shadow: 0 8px 8px rgba(153, 153, 153, .5);
+  line-height: 0;
   transition: transform .25s ease-in-out;
 }
 .work-samples a:hover {
