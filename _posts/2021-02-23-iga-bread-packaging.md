@@ -4,6 +4,7 @@ title: IGA Packaging | Designpods
 headertext: Bread Packaging
 slug: iga-packaging
 thumb: iga_bread_thumb.jpg
+squiggle: 3
 intro: |
   <p class="work-services">Design</p>
 

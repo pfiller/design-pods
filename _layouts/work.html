@@ -9,7 +9,7 @@ layout: base
       <a class="header-link" href="{{ site.baseurl }}/work">Work</a>
     </div>
     <div class="intro-section">
-      <h1 class="work-group"><span></span>{{ page.headertext }}</h1>
+      <h1 class="work-group"><span class="sub-squiggle squiggle-{% if page.squiggle %}{{ page.squiggle }}{% else %}1{% endif %}"></span>{{ page.headertext }}</h1>
       {{ page.intro | markdownify }}
     </div>
   </div>

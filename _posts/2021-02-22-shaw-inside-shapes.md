@@ -4,6 +4,7 @@ title: Shaw Contract Inside Shapes | Designpods
 headertext: A New Concept <br>In Flooring
 slug: shaw-inside-shapes
 thumb: inside_shapes_thumb.jpg
+squiggle: 2
 intro: |
   <img src="../img/work/shaw_logo.svg" width="280" height="auto">
 

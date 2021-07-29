@@ -4,6 +4,7 @@ title: Whole World Website | Designpods
 headertext: A Website Redesign <br>to LOL
 slug: whole-world-website
 thumb: whole_world_thumb.jpg
+squiggle: 2
 intro: |
   <img src="../img/work/ww_logo.png" width="95" height="auto">
 

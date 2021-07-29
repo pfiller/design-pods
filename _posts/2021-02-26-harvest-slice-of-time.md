@@ -4,6 +4,7 @@ title:  Harvest Website | Designpods
 headertext:  A Slice of Time
 slug: harvest-website
 thumb: harvest_thumb.jpg
+squiggle: 3
 intro: |
   <img src="../img/work/harvest_logo.svg" width="187" height="auto">
 

@@ -4,6 +4,7 @@ title: Clover Brochure | Designpods
 headertext: Product Offers Simplified
 slug: clover-brochure
 thumb: clover_thumb.jpg
+squiggle: 2
 intro: |
   <img src="../img/work/clover-logo.svg" width="157" height="auto">
 

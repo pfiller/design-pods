@@ -4,6 +4,7 @@ title: Lima One Portal | Designpods
 headertext: A Financial Portal <br>for Complex Accounts
 slug: lima-one-portal
 thumb: LO_thumb.jpg
+squiggle: 3
 intro: |
   <img src="../img/work/LO_logo.svg" width="156" height="auto">
 

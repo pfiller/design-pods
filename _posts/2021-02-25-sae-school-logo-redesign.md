@@ -4,6 +4,7 @@ title: SAE Branding | Designpods
 headertext: Logo Redesign
 slug: sae-branding
 thumb: sae_thumb.jpg
+squiggle: 2
 intro: |
   <p class="work-services">Branding</p>
 

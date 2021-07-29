@@ -4,6 +4,7 @@ title: Shaw Contract Color Study | Designpods
 headertext:  Telling the Story <br>of Color.
 slug: shaw-color
 thumb: color_study_thumb.jpg
+squiggle: 3
 intro: |
   <img src="../img/work/shaw_logo.svg" width="280" height="auto">
 

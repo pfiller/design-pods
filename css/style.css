@@ -153,14 +153,23 @@ h2 br { display: none; }
 .work-group {
   position: relative;
 }
-.work-group span {
-  background:  url('/design-pods/img/squiggles/work-group.svg') no-repeat;
+
+.sub-squiggle {
   background-size: 35% 35%;
   height: 135px;
   left: -32px;
   position: absolute;
   width:  142px;
   top: -24px;
+}
+.squiggle-1 {
+  background:  url('/design-pods/img/squiggles/work-group.svg') no-repeat;
+}
+.squiggle-2 {
+  background:  url('/design-pods/img/squiggles/traingle_x.svg') no-repeat;
+}
+.squiggle-3 {
+  background:  url('/design-pods/img/squiggles/traingle_x_2.svg') no-repeat;
 }
 .back-to-all {
   font-weight: bold;
@@ -798,9 +807,16 @@ nav a:hover { color: #F9BAC0; }
     height: 990px;
   }
 
+  .work-arrow {
+    height: 75px;
+    right: -45px;
+    width:  100px;
+    bottom: -40px;
+  }
 
   .work-group br, .services-page br { display: inline; }
-  .work-group span {
+
+  .sub-squiggle {
     background-size: 100% 100%;
     left: -45px;
     width: 55px;

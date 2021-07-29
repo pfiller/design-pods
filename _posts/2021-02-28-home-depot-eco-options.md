@@ -4,6 +4,7 @@ title: Home Depot EcoActions | Designpods
 headertext: A Website <br>for the Earth
 slug: home-depot-ecoactions
 thumb: eco_options_thumb.jpg
+squiggle: 2
 intro: |
   <img src="../img/work/THD.svg" width="57" height="auto">
 

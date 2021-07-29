@@ -4,6 +4,7 @@ title: Cox Enterprises Magazine | Designpods
 headertext: An Employee Magazine That Engages
 slug: cox-magazine
 thumb: cox_thumb.jpg
+squiggle: 3
 intro: |
   <img src="../img/work/cox-logo.svg" width="145" height="auto">
 
