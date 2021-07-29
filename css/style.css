@@ -240,6 +240,7 @@ main {
   background-image: url("{{ site.baseurl }}/img/balloon_nav.png");
   background-size: 100% 100%;
   display: inline-block;
+  filter:  drop-shadow(-25px 15px 4px rgba(200, 200, 200, .3));
   height: 142px;
   position: fixed;
   right: 10px;
@@ -293,6 +294,7 @@ main {
   z-index: -3;
 }
 .logo-container img {
+  filter:  drop-shadow(-25px 15px 4px rgba(200, 200, 200, .3));
   height: auto;
   margin-left:  6vw;
   max-width: 330px;
