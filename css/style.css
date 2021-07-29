@@ -150,26 +150,33 @@ h2 br { display: none; }
   bottom: -30px;
 }
 
-.work-group {
+.work-group, .squiggle-head {
   position: relative;
 }
 
 .sub-squiggle {
   background-size: 35% 35%;
+  background-repeat: no-repeat;
   height: 135px;
   left: -32px;
   position: absolute;
   width:  142px;
   top: -24px;
 }
+.squiggle-service {
+  background-size: 25%;
+}
+.services-header {
+  display: block;
+}
 .squiggle-1 {
-  background:  url('/design-pods/img/squiggles/work-group.svg') no-repeat;
+  background-image:  url('/design-pods/img/squiggles/work-group.svg');
 }
 .squiggle-2 {
-  background:  url('/design-pods/img/squiggles/traingle_x.svg') no-repeat;
+  background-image:  url('/design-pods/img/squiggles/traingle_x.svg');
 }
 .squiggle-3 {
-  background:  url('/design-pods/img/squiggles/traingle_x_2.svg') no-repeat;
+  background-image:  url('/design-pods/img/squiggles/traingle_x_2.svg');
 }
 .back-to-all {
   font-weight: bold;
@@ -531,6 +538,8 @@ nav a:hover { color: #F9BAC0; }
 
 .subhead {
   color: #ACD5AD;
+  display: inline-block;
+  position: relative;
   text-transform: uppercase;
 }
 .sub-pink {
@@ -821,6 +830,9 @@ nav a:hover { color: #F9BAC0; }
     left: -45px;
     width: 55px;
     top: -60px;
+  }
+  .squiggle-service {
+    top:  -80px;
   }
 
   .work-slides {

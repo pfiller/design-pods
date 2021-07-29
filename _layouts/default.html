@@ -9,7 +9,7 @@ layout: base
       <h1>{{ page.title }}</h1>
     </div>
     <div class="intro-section">
-      <h2>{{ page.subhead }}</h2>
+      <h2 class="squiggle-head">{% if page.title!="Work" %}<span class="sub-squiggle squiggle-{% if page.squiggle %}{{ page.squiggle }}{% else %}1{% endif %}"></span>{% endif %}{{ page.subhead }}</h2>
       {{ page.intro | markdownify }}
     </div>
   </div>
