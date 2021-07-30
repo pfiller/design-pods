@@ -414,9 +414,6 @@ main {
 .section-brands .balloons {
   position: relative;
 }
-.section-brands .balloons img {
-  margin-left: -80px;
-}
 .section-brands .balloons div {
   background: blue;
   height: 100px;
@@ -766,10 +763,6 @@ nav a:hover { color: #F9BAC0; }
   .it-me {
     max-width: 325px;
     width: 100%;
-  }
-
-  .section-brands .balloons img {
-    margin-left: 0;
   }
 
   .section-fullservice ul {

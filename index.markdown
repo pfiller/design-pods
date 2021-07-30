@@ -64,7 +64,7 @@ pagecssclass: home
     <div class="section-container section-container-wide">
       <div class="intro-flex">
         <div class="balloons home-image narrow-image">
-          <img src="{{ site.baseurl }}/img/pop_fallback_desktop.jpg" width="350" height="349">
+          <img src="{{ site.baseurl }}/img/pop_fallback.jpg" width="414" height="496">
         </div>
         <div>
           <h2 class="big-sub">A few brands I’ve had <span>the joy to work with</span></h2>
