@@ -370,12 +370,31 @@ main {
 
 .work-samples img {
   border:  1px solid black;
+  position: relative;
+  z-index: 2;
+}
+
+.work-star {
+  background-image: url('{{ site.baseurl }}/img/squiggles/filled_star.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10vw !important;
+  position: absolute;
+  bottom: -5vw;
+  left: -5vw;
+  width: 10vw !important;
+  z-index: 1;
+}
+
+.work-samples div:first-child .work-star {
+  visibility:  hidden;
 }
 
 .work-samples a {
   display: inline-block;
   box-shadow: 0 8px 8px rgba(153, 153, 153, .5);
   line-height: 0;
+  position: relative;
   transition: transform .25s ease-in-out;
 }
 .work-samples a:hover {
@@ -712,6 +731,13 @@ nav a:hover { color: #F9BAC0; }
     height: auto;
     width: 4vw;
     max-width: 66px;
+  }
+
+  .work-samples div:first-child .work-star {
+    visibility:  visible;
+  }
+  .work-samples div:last-child .work-star {
+    visibility:  hidden;
   }
 
   .work-samples {
