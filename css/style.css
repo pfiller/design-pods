@@ -67,7 +67,7 @@ h2 span { display: block; }
 h2 br { display: none; }
 .always-show { display: inline; }
 
-.home-image img {
+.home-image > img {
   box-sizing: border-box;
   text-align: center;
   margin-bottom: 15px;
@@ -414,13 +414,15 @@ main {
 .section-brands .balloons {
   position: relative;
 }
-.section-brands .balloons div {
-  background: blue;
-  height: 100px;
-  left: 0;
+
+.balloons img {
+  min-width: 300px;
+}
+
+.brand-sq {
   position: absolute;
-  top: 0;
-  width: 100px;
+  right:  8.5vw;
+  top:  8.5vw;
 }
 
 .section-brands ul {
@@ -669,7 +671,7 @@ nav a:hover { color: #F9BAC0; }
     top: 3.5vw !important;
   }
 
-  .home-image img {
+  .home-image > img {
     height: auto;
     margin-bottom: 0;
     padding: 0 25px;
@@ -728,6 +730,18 @@ nav a:hover { color: #F9BAC0; }
     height: auto;
     width: 4vw;
     max-width: 66px;
+  }
+
+  .brand-sq {
+    position: absolute;
+    right:  1.5vw;
+    top:  1.5vw;
+  }
+  .brand-sq img {
+    height: 5.5vw;
+    max-height: 80px;
+    max-width: 40px;
+    width: 2.8vw;
   }
 
   .work-samples div:first-child .work-star {
