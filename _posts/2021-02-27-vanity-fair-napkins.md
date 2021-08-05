@@ -11,7 +11,7 @@ intro: |
   Advertising<br>
   In Store</p>
 
-  Vanity Fair Napkins were always known as the premium, soft, cloth-like white napkin. With a standard of quality since 1958. The napkins were only available in white with their classic seashell filigree. It was a napkin used for special occasions and classy dinners. As of late, there has been an invasion of generic brands to the marketplace, many with patterns. The patterns were a hit with customers for everyday use, and Vanity Fair knew they needed to compete. The Design Collection was launched with advertising and in-store encouraging customers to make every day a little special with Vanity Fair.
+  Vanity Fair Napkins have always been known as the premium, soft, cloth-like white napkin, with a standard of quality that’s been established since 1958. The napkins were only available in white with their classic seashell filigree. It was a napkin used for special occasions and classy dinners. As of late, there has been an invasion of generic brands to the marketplace, many with patterns. The patterns were a hit with customers for everyday use, and Vanity Fair knew they needed to compete. The Design Collection was launched with advertising and in-store marketing encouraging customers to make every day a little special with Vanity Fair.
 ---
 
 ![](../img/work/VF_Napkins_1.jpg)
