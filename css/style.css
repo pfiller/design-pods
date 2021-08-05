@@ -242,7 +242,7 @@ main {
 .home-image { text-align: center; }
 
 #siteNav {
-  z-index: 2;
+  z-index: 12;
 }
 
 .burger-balloon {
