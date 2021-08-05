@@ -10,7 +10,7 @@ intro: |
   <p class="work-services">Creative Direction<br>
   Editorial Design</p>
 
-  The Georgia Municipal Association wanted to take their dated newspaper and update it to a more visual and modern magazine. The Georgia Municipal Association wanted to take their dated newspaper and update it to a more visual and contemporary magazine. The 52-page magazine is sent to members all over the state. The magazine needed to fill on brand and audience while still be engaging and easy to read.
+  The Georgia Municipal Association wanted to take their dated newspaper and update it to a more visual and modern magazine. The 52-page magazine is sent to members all over the state. The magazine needed to feel on-brand while still being engaging and easy to read.
 
   <a href="https://www.gacities.com/News/Georgias-Cities-Magazine.aspx" class="cta-link" target="_blank">See the Digital Magazine</a>
 ---
