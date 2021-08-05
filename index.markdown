@@ -91,7 +91,7 @@ pagecssclass: home
     <div class="section-container">
       <div class="intro-flex flex-reverse">
         <div class="home-image magic-hat"><img src="{{ site.baseurl }}/img/rabbit_hat_annimate.svg" width="252" height="auto"></div>
-        <div>
+        <div class="abracadabra">
           <h2>Abracadabra!<br class="always-show">
             I&rsquo;m a full-service Lindsay.</h2>
           <ul>
