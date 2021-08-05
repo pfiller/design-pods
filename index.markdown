@@ -15,8 +15,8 @@ pagecssclass: home
       <div class="intro-flex flex-reverse">
         <div class="home-image"><img src="{{ site.baseurl }}/img/me_thinking.svg" width="176" height="252" class="it-me"></div>
         <div>
-          <h2>Designpods is <span>Lindsay Podrid</span></h2>
-          <p>I&rsquo;m a freelance graphic desinger and doughnut eater doing good work with nice people. I like the color yellow, large balloons, and nnicely kerned type. I&rsquo;m currently working on a website redesign for a Fortune 50 company and a logo for my ficticious band, <em>Girl Squirrel</em>. Life and work are all about balance.</p>
+          <h2>Designpods is <span>Lindsay Podrid.</span></h2>
+          <p>I&rsquo;m a freelance graphic designer and doughnut eater doing good work with nice people. I like the color yellow, large balloons, and nicely kerned type. I&rsquo;m currently working on a website redesign for a Fortune 50 company and a logo for my ficticious band, <em>Girl Squirrel</em>. Life and work are all about balance.</p>
           <p><a href="{{ site.baseurl }}/about" class="continue-link">Read More</a></p>
         </div>
       </div>
@@ -68,7 +68,7 @@ pagecssclass: home
           <div class="brand-sq"><img src="{{ site.baseurl }}/img/squiggles/group_2.svg" width="40" height="80"></div>
         </div>
         <div>
-          <h2 class="big-sub">A few brands I’ve had <span>the joy to work with</span></h2>
+          <h2 class="big-sub">A few brands I’ve had <span>the joy to work with.</span></h2>
           <ul>
             <li><img src="{{ site.baseurl }}/img/work/THD.svg" width="44" height="auto"></li>
             <li><img src="{{ site.baseurl }}/img/work/GP_logo.svg" width="126" height="auto"></li>
