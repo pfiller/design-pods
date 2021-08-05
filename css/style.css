@@ -248,7 +248,7 @@ main {
   right: 10px;
   top: 16px;
   width: 133px;
-  z-index: 1;
+  z-index: 10;
 }
 .burger-balloon img {
   height:  auto;
