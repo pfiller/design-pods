@@ -32,7 +32,7 @@ pagecssclass: home
           <div class="dough-sq-2"><img src="{{ site.baseurl }}/img/squiggles/group_3.svg" width="60" height="77"></div>
         </div>
         <div>
-          <h2 class="big-sub">You’re here so you might as well look at some work.</h2>
+          <h2 class="big-sub bottom-arrow">You’re here so you might as well look at some work.</h2>
         </div>
       </div>
     </div>
