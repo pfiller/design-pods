@@ -487,6 +487,7 @@ main {
   font-weight: 400;
   font-style: normal;
   padding: 5px 25px;
+  position: relative;
   text-decoration: none;
 }
 .continue-link:hover {
@@ -498,7 +499,28 @@ main {
   margin-left:  4px;
   width:  22px;
 }
-
+.continue-link:before, .continue-link:after {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  content: "";
+  position: absolute;
+}
+.continue-link:hover:before {
+  background-image:  url("{{ site.baseurl }}/img/circle.svg");;
+  height: 14px;
+  left: -23px;
+  width: 14px;
+  top: 4px;
+}
+.continue-link:hover:after {
+  background-image: url("{{ site.baseurl }}/img/asterisk.svg");
+  height: 16px;
+  right: -19px;
+  top: -13px;
+  width: 16px;
+}
 
 footer {
   background: #FCE7E9;
