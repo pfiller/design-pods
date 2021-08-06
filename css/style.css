@@ -266,7 +266,6 @@ main {
 }
 
 .home-burger-balloon {
-  -webkit-animation: float 4s ease-in-out infinite;
   animation: float 4s ease-in-out infinite;
   animation-delay: .5s;
   height: 26.3vw !important;
@@ -306,7 +305,6 @@ main {
   z-index: -3;
 }
 .logo-container img {
-  -webkit-animation: float 4s ease-in-out infinite;
   animation: float 4s ease-in-out infinite;
   filter:  drop-shadow(-25px 15px 4px rgba(200, 200, 200, .3));
   height: auto;
@@ -986,23 +984,6 @@ nav a:hover { color: #F9BAC0; }
     margin-left: calc(-50vw + 50%);
     margin-top: -100px;
     width: 100vw;
-  }
-}
-
-@-webkit-keyframes float {
-  0% {
-    -webkit-transform: translatey(0px);
-    transform: translatey(0px);
-  }
-
-  50% {
-    -webkit-transform: translatey(-20px);
-    transform: translatey(-20px);
-  }
-
-  100% {
-    -webkit-transform: translatey(0px);
-    transform: translatey(0px);
   }
 }
 
