@@ -494,6 +494,10 @@ main {
   border-color: white;
   color: white;
 }
+.continue-link svg {
+  margin-left:  4px;
+  width:  22px;
+}
 
 
 footer {
