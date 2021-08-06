@@ -65,7 +65,6 @@ pagecssclass: home
       <div class="intro-flex">
         <div class="balloons home-image narrow-image">
           <img src="{{ site.baseurl }}/img/pop_fallback.jpg" width="414" height="496">
-          <div class="brand-sq"><img src="{{ site.baseurl }}/img/squiggles/group_2.svg" width="40" height="80"></div>
         </div>
         <div>
           <h2 class="big-sub">A few brands I’ve had <span>the joy to work with.</span></h2>

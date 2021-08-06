@@ -437,18 +437,25 @@ main {
 .section-brands {
   background: white;
 }
-.section-brands .balloons {
+.balloons {
   position: relative;
+}
+.balloons:after {
+  background-image:  url("{{ site.baseurl }}/img/squiggles/group_2.svg");
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  content: "";
+  height: 80px;
+  position: absolute;
+  width: 40px;
+  right: 8%;
+  top: 8%;
 }
 
 .balloons img {
   min-width: 300px;
-}
-
-.brand-sq {
-  position: absolute;
-  right:  8.5vw;
-  top:  8.5vw;
 }
 
 .section-brands ul {
@@ -793,16 +800,9 @@ nav a:hover { color: #F9BAC0; }
     max-width: 66px;
   }
 
-  .brand-sq {
-    position: absolute;
-    right:  1.5vw;
-    top:  1.5vw;
-  }
-  .brand-sq img {
-    height: 5.5vw;
-    max-height: 80px;
-    max-width: 40px;
-    width: 2.8vw;
+  .balloons:after {
+    right: 9%;
+    top: 0%;
   }
 
   .work-samples div:first-child .work-star {
