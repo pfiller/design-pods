@@ -52,7 +52,7 @@ pagecssclass: home
       <div class="intro-flex">
         <div class="home-image"><img src="{{ site.baseurl }}/img/logo_bigger.svg" width="308" height="216"></div>
         <div>
-          <h2>Let me make your <span>logo bigger.</span></h2>
+          <h2>Let me make your <span class="nobreak">logo bigger.</span></h2>
           <p>One of the oldest graphic designers jokes is the client asking to make their logo bigger. The client asks, the designer sighs, the logo eventually ends up bigger. Let’s make a logo, and then let’s make it bigger.</p>
           <p><a href="mailto:lindsay@designpods.com" class="continue-link">Get Started <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg></a></p>
         </div>
@@ -67,7 +67,7 @@ pagecssclass: home
           <img src="{{ site.baseurl }}/img/pop_fallback.jpg" width="414" height="496">
         </div>
         <div>
-          <h2 class="big-sub">A few brands I’ve had <span>the joy to work with.</span></h2>
+          <h2 class="big-sub">A few brands I’ve had the joy to <span class="nobreak">work with.</span></h2>
           <ul>
             <li><img src="{{ site.baseurl }}/img/work/THD.svg" width="44" height="auto"></li>
             <li><img src="{{ site.baseurl }}/img/work/GP_logo.svg" width="126" height="auto"></li>
@@ -97,11 +97,11 @@ pagecssclass: home
             <li>Strategy</li>
             <li>Doughnut Eating</li>
             <li>User Experience</li>
-            <li>Identity and Brand</li>
+            <li>Art Direction</li>
             <li>Digital Design</li>
             <li>Packaging</li>
-            <li>Art Direction</li>
             <li>Presentation Design</li>
+            <li>Identity and Brand</li>
           </ul>
           <p><a href="{{ site.baseurl }}/services" class="continue-link">Read More</a></p>
         </div>

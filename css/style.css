@@ -60,6 +60,7 @@ h2, .work-group {
   margin: 0;
 }
 h2 span { display: block; }
+h2 span.nobreak { display: inline; white-space: nowrap; }
 .big-sub {
   font-size: 45px;
 }
@@ -699,6 +700,8 @@ nav a:hover { color: #F9BAC0; }
     font-size: 65px;
   }
   h2 br { display: inline; }
+  h2 span.nobreak { display: inline; white-space: normal; }
+
   .big-sub {
     font-size: 85px;
   }
@@ -974,6 +977,8 @@ nav a:hover { color: #F9BAC0; }
 }
 
 @media (min-width: 1200px) {
+  h2 span.nobreak { display: inline; white-space: nowrap; }
+
   .services-page h1 {
     font-size: 120px;
   }
