@@ -220,7 +220,7 @@ main {
 }
 
 .home-intro {
-  height: 42vw;
+  height: 60vw;
   left:  0;
   margin:  0 auto;
   max-height: 600px;
@@ -234,9 +234,9 @@ main {
 }
 
 .home-intro h1 {
-  font-size: 12.5vw;
+  font-size: 15.5vw;
   margin:  0;
-  padding: 8vw 0 0;
+  padding: 21vw 0 0;
 }
 
 .home-image { text-align: center; }
@@ -288,8 +288,8 @@ main {
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: auto 66.6vw;
-  height: 62vw;
-  margin-top: -37.6vw;
+  height: 86vw;
+  margin-top: -57vw;
   max-height: 900px;
   width: 100%;
 }
@@ -665,7 +665,12 @@ nav a:hover { color: #F9BAC0; }
     font-size: 39px;
   }
 
+  .home-intro {
+    height: 42vw;
+  }
+
   .home-intro h1 {
+    font-size: 12.5vw;
     padding: 7vw 0 0;
   }
 
@@ -675,6 +680,11 @@ nav a:hover { color: #F9BAC0; }
 
   .home-burger-balloon {
     top: 3.5vw !important;
+  }
+
+  .home-balloon-hero {
+    height: 62vw;
+    margin-top: -37.6vw;
   }
 
   .home-image > img {
@@ -943,7 +953,7 @@ nav a:hover { color: #F9BAC0; }
   }
 
   .logo-container {
-    padding-top: 100px;
+    padding-top: 44px;
   }
   .logo-container img {
     margin-left:  86px;
