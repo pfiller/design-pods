@@ -1,6 +1,9 @@
 ---
 layout: base
 pagecssclass: home
+preloads: |
+  <link rel="preload" href="img/doughnut_chocolate.gif" as="image">
+  <link rel="preload" href="img/pop_desktop.gif" as="image">
 ---
 <main>
   <div class="home-intro">
@@ -65,8 +68,9 @@ pagecssclass: home
       <div class="intro-flex">
         <div class="balloons home-image narrow-image">
           <img src="{{ site.baseurl }}/img/pop_fallback.jpg" width="414" height="496">
+          <div class="pop"></div>
         </div>
-        <div>
+        <div class="cover-pop">
           <h2 class="big-sub">A few brands I’ve had the joy to <span class="nobreak">work with.</span></h2>
           <ul>
             <li><img src="{{ site.baseurl }}/img/work/THD.svg" width="44" height="auto"></li>

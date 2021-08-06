@@ -442,7 +442,7 @@ main {
   position: relative;
 }
 .balloons:after {
-  background-image:  url("{{ site.baseurl }}/img/squiggles/group_2.svg");
+  background-image: url("{{ site.baseurl }}/img/squiggles/group_2.svg");
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -457,6 +457,19 @@ main {
 
 .balloons img {
   min-width: 300px;
+}
+.pop {
+  background: url("{{ site.baseurl }}/img/pop_desktop.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  left: -35px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+.cover-pop {
+  z-index: 2;
 }
 
 .section-brands ul {
