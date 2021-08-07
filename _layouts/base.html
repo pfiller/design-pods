@@ -16,7 +16,7 @@
 
   <body class="{% if page.pagecssclass %}{{ page.pagecssclass }}{% else %}background-orange{% endif %}">
     {{ content }}
-    <a href="#" class="js-nav-burger burger-balloon{{% if page.pagecssclass %}} {{page.pagecssclass }}-burger-balloon{{% endif %}}"><img src="{{ site.baseurl }}/img/hamburger.svg" width="50" height="auto"></a>
+    <a href="#" class="js-nav-burger burger-balloon{% if page.pagecssclass %} {{page.pagecssclass }}-burger-balloon{% endif %}"><img src="{{ site.baseurl }}/img/hamburger.svg" width="50" height="auto"></a>
     <footer>
       <ul class="contact-list">
         <li><a href="https://www.instagram.com/lindsasaurus/" target="_blank"><img src="{{ site.baseurl }}/img/instagram.svg" width="35" height="auto" alt="Follow me on Instagram"></a></li>
