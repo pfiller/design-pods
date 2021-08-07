@@ -1,9 +1,6 @@
 ---
 layout: base
 pagecssclass: home
-preloads: |
-  <link rel="preload" href="img/doughnut_chocolate.gif" as="image">
-  <link rel="preload" href="img/pop_desktop.gif" as="image">
 ---
 <main>
   <div class="home-intro">
