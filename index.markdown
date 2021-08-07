@@ -68,7 +68,11 @@ preloads: |
       <div class="intro-flex">
         <div class="balloons home-image narrow-image">
           <img src="{{ site.baseurl }}/img/pop_fallback.jpg" width="414" height="496">
-          <div class="pop"></div>
+          <div class="pop">
+            <video autoplay loop muted playsinline>
+              <source src="{{ site.baseurl }}/img/pop-goes-the-balloon.mp4" type="video/mp4">
+            </video>
+          </div>
         </div>
         <div class="cover-pop">
           <h2 class="big-sub">A few brands I’ve had the joy to <span class="nobreak">work with.</span></h2>

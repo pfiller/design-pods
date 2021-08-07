@@ -437,36 +437,29 @@ main {
 
 .section-brands {
   background: white;
+  overflow-x: hidden;
 }
 .balloons {
   position: relative;
 }
-.balloons:after {
-  background-image: url("{{ site.baseurl }}/img/squiggles/group_2.svg");
-  display: block;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  content: "";
-  height: 80px;
-  position: absolute;
-  width: 40px;
-  right: 8%;
-  top: 8%;
-}
 
 .balloons img {
   min-width: 300px;
+  opacity: 0;
 }
 .pop {
-  background: url("{{ site.baseurl }}/img/pop_desktop.gif");
-  background-repeat: no-repeat;
-  background-size: contain;
   height: 100%;
-  left: -35px;
+  left: 0;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 160vw;
+}
+.pop video {
+  height:  100%;
+  left:  0;
+  position: absolute;
+  top:  0;
+  width:  100%;
 }
 .cover-pop {
   z-index: 2;
@@ -878,6 +871,12 @@ nav a:hover { color: #F9BAC0; }
     max-width: 425px;
   }
 
+  .pop {
+    left: -17vw;
+    max-width: 1440px;
+    width: 100vw;
+  }
+
   .burger-smile {
     right: 90px;
     top: 70px;
@@ -1037,6 +1036,10 @@ nav a:hover { color: #F9BAC0; }
   .home-burger-balloon img {
     left: calc(50% - 47px);
     top: calc(50% - 47px);
+  }
+
+  .pop {
+    left: -245px;
   }
 
   .main-page {
