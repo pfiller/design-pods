@@ -60,6 +60,42 @@
       for(let i=0; i<navtoggles.length; i+=1){
         navtoggles[i].addEventListener("click", toggleNav);
       }
+
+    {% if page.pagecssclass == "home" %}
+      (function() {
+        const doughnutvid = document.getElementById("doughnutvid");
+        let doughnutSet = false;
+
+        doughnutvid.addEventListener('loadeddata', doughnutReadyTest);
+        doughnutReadyTest();
+
+        function doughnutReadyTest(){
+          if(doughnutvid.readyState >= 2 && !doughnutSet){
+            // doughnutvid.duration
+            doughnutvid.currentTime = 0;
+            doughnutSet = true;
+          }
+        }
+
+        function doughnutScroll(){
+          let doughnutDeets = doughnutvid.getBoundingClientRect();
+          let topOfZone = window.innerHeight / 6;
+          let bottomOfZone = window.innerHeight - topOfZone;
+
+          if(doughnutDeets.top < 0){
+            doughnutvid.currentTime = doughnutvid.duration - .01;
+          }
+          else if (doughnutDeets.bottom > window.innerHeight){
+            doughnutvid.currentTime = 0;
+          }
+          else {
+            doughnutvid.currentTime = (1 - (doughnutDeets.top / (window.innerHeight - doughnutDeets.height))) * doughnutvid.duration;
+          }
+        }
+
+        window.addEventListener('scroll', doughnutScroll);
+      })();
+    {% endif  %}
     </script>
   {% if jekyll.environment == "production" %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
