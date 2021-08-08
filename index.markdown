@@ -27,11 +27,7 @@ pagecssclass: home
     <div class="section-container section-container-wide">
       <div class="intro-flex">
         <div class="home-dough">
-          <video loop muted playsinline id="doughnutvid">
-            <source src="{{ site.baseurl }}/img/doughnut_chocolate.mp4" type="video/mp4">
-            <source src="{{ site.baseurl }}/img/doughnut_chocolate.webm" type="video/webm">
-          </video>
-          <video autoplay loop muted playsinline>
+          <video autoplay loop muted playsinline id="doughnutvid">
             <source src="{{ site.baseurl }}/img/doughnut_chocolate.mp4" type="video/mp4">
             <source src="{{ site.baseurl }}/img/doughnut_chocolate.webm" type="video/webm">
           </video>

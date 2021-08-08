@@ -71,7 +71,7 @@
 
         function doughnutReadyTest(){
           if(doughnutvid.readyState >= 2 && !doughnutSet){
-            // doughnutvid.duration
+            doughnutvid.pause();
             doughnutvid.currentTime = 0;
             doughnutSet = true;
           }
