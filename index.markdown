@@ -31,6 +31,10 @@ pagecssclass: home
             <source src="{{ site.baseurl }}/img/doughnut_chocolate.mp4" type="video/mp4">
             <source src="{{ site.baseurl }}/img/doughnut_chocolate.webm" type="video/webm">
           </video>
+          <video autoplay loop muted playsinline>
+            <source src="{{ site.baseurl }}/img/doughnut_chocolate.mp4" type="video/mp4">
+            <source src="{{ site.baseurl }}/img/doughnut_chocolate.webm" type="video/webm">
+          </video>
           <div class="dough-sq-1"><img src="{{ site.baseurl }}/img/squiggles/line_star.svg" width="60" height="77"></div>
           <div class="dough-sq-2"><img src="{{ site.baseurl }}/img/squiggles/group_3.svg" width="60" height="77"></div>
         </div>
