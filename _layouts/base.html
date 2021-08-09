@@ -63,71 +63,45 @@
 
     {% if page.pagecssclass == "home" %}
       (function() {
-        const doughnutvid = document.getElementById("doughnutvid");
-        let doughnutSet = false;
 
-        doughnutvid.addEventListener('loadeddata', doughnutReadyTest);
-        doughnutReadyTest();
+        class playVideoOnScroll {
+          constructor(videoID){
+            this.video = document.getElementById(videoID);
+            this.isVideoReady = false;
 
-        function doughnutReadyTest(){
-          if(doughnutvid.readyState >= 2 && !doughnutSet){
-            doughnutvid.pause();
-            doughnutvid.currentTime = 0;
-            doughnutSet = true;
+            this.video.addEventListener('loadeddata', evt => this.videoReadyTest(evt));
+            window.addEventListener('scroll', evt => this.handleVideoScroll(evt));
+
+            this.videoReadyTest();
+          }
+
+          videoReadyTest(){
+            if(this.video.readyState >= 2 && !this.isVideoReady){
+              this.video.pause();
+              this.video.currentTime = 0;
+              this.isVideoReady = true;
+            }
+          }
+
+          handleVideoScroll(){
+            let videoDeets = this.video.getBoundingClientRect();
+            let topOfZone = window.innerHeight / 6;
+            let bottomOfZone = window.innerHeight - topOfZone;
+
+            if(videoDeets.top < 0){
+              this.video.currentTime = this.video.duration - .01;
+            }
+            else if (videoDeets.bottom > window.innerHeight){
+              this.video.currentTime = 0;
+            }
+            else {
+              this.video.currentTime = (1 - (videoDeets.top / (window.innerHeight - videoDeets.height))) * this.video.duration;
+            }
           }
         }
 
-        function doughnutScroll(){
-          let doughnutDeets = doughnutvid.getBoundingClientRect();
-          let topOfZone = window.innerHeight / 6;
-          let bottomOfZone = window.innerHeight - topOfZone;
-
-          if(doughnutDeets.top < 0){
-            doughnutvid.currentTime = doughnutvid.duration - .01;
-          }
-          else if (doughnutDeets.bottom > window.innerHeight){
-            doughnutvid.currentTime = 0;
-          }
-          else {
-            doughnutvid.currentTime = (1 - (doughnutDeets.top / (window.innerHeight - doughnutDeets.height))) * doughnutvid.duration;
-          }
-        }
-
-        window.addEventListener('scroll', doughnutScroll);
-      })();
-
-      (function() {
-        const balloonvid = document.getElementById("balloonvid");
-        let balloonSet = false;
-
-        balloonvid.addEventListener('loadeddata', balloonReadyTest);
-        balloonReadyTest();
-
-        function balloonReadyTest(){
-          if(balloonvid.readyState >= 2 && !balloonSet){
-            balloonvid.pause();
-            balloonvid.currentTime = 0;
-            balloonSet = true;
-          }
-        }
-
-        function balloonScroll(){
-          let balloonDeets = balloonvid.getBoundingClientRect();
-          let topOfZone = window.innerHeight / 6;
-          let bottomOfZone = window.innerHeight - topOfZone;
-
-          if(balloonDeets.top < 0){
-            balloonvid.currentTime = balloonvid.duration - .01;
-          }
-          else if (balloonDeets.bottom > window.innerHeight){
-            balloonvid.currentTime = 0;
-          }
-          else {
-            balloonvid.currentTime = (1 - (balloonDeets.top / (window.innerHeight - balloonDeets.height))) * balloonvid.duration;
-          }
-        }
-
-        window.addEventListener('scroll', balloonScroll);
+        new playVideoOnScroll('balloonvid');
+        new playVideoOnScroll('doughnutvid');
       })();
     {% endif  %}
     </script>
@@ -136,7 +110,6 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34028837-1"></script>
     <script>
       if(window.location.host.search(/github/) < 0){
-        console.log("bang");
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
