@@ -5,7 +5,7 @@ pagecssclass: home
 <main>
   <div class="home-intro">
     <h1>Look good<br>
-      and be nice</h1>
+      and be nice.</h1>
   </div>
   <div class="home-balloon-hero">
     <div class="logo-container"><img src="img/balloon_logo.png" width="250" height="267"></div>
