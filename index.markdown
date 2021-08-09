@@ -69,7 +69,7 @@ pagecssclass: home
         <div class="balloons home-image narrow-image">
           <img src="{{ site.baseurl }}/img/pop_fallback.jpg" width="414" height="496">
           <div class="pop">
-            <video autoplay loop muted playsinline>
+            <video autoplay loop muted playsinline id="balloonvid">
               <source src="{{ site.baseurl }}/img/pop-goes-the-balloon.mp4" type="video/mp4">
             </video>
           </div>

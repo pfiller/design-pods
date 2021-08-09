@@ -95,6 +95,40 @@
 
         window.addEventListener('scroll', doughnutScroll);
       })();
+
+      (function() {
+        const balloonvid = document.getElementById("balloonvid");
+        let balloonSet = false;
+
+        balloonvid.addEventListener('loadeddata', balloonReadyTest);
+        balloonReadyTest();
+
+        function balloonReadyTest(){
+          if(balloonvid.readyState >= 2 && !balloonSet){
+            balloonvid.pause();
+            balloonvid.currentTime = 0;
+            balloonSet = true;
+          }
+        }
+
+        function balloonScroll(){
+          let balloonDeets = balloonvid.getBoundingClientRect();
+          let topOfZone = window.innerHeight / 6;
+          let bottomOfZone = window.innerHeight - topOfZone;
+
+          if(balloonDeets.top < 0){
+            balloonvid.currentTime = balloonvid.duration - .01;
+          }
+          else if (balloonDeets.bottom > window.innerHeight){
+            balloonvid.currentTime = 0;
+          }
+          else {
+            balloonvid.currentTime = (1 - (balloonDeets.top / (window.innerHeight - balloonDeets.height))) * balloonvid.duration;
+          }
+        }
+
+        window.addEventListener('scroll', balloonScroll);
+      })();
     {% endif  %}
     </script>
   {% if jekyll.environment == "production" %}
