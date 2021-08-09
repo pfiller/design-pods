@@ -67,10 +67,11 @@ pagecssclass: home
     <div class="section-container section-container-wide">
       <div class="intro-flex">
         <div class="balloons home-image narrow-image">
-          <img src="{{ site.baseurl }}/img/pop_fallback.jpg" width="414" height="496">
+          <img src="{{ site.baseurl }}/img/pop_fallback.jpg" width="300" height="359">
           <div class="pop">
             <video autoplay loop muted playsinline id="balloonvid">
-              <source src="{{ site.baseurl }}/img/pop-goes-the-balloon.mp4" type="video/mp4">
+              <source src="{{ site.baseurl }}/img/B_Pop_800.mp4" type="video/mp4">
+                <source src="{{ site.baseurl }}/img/B_Pop_800.webm" type="video/webm">
             </video>
           </div>
         </div>

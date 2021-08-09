@@ -452,7 +452,7 @@ main {
   left: 0;
   position: absolute;
   top: 0;
-  width: 160vw;
+  width: 100%;
 }
 .pop video {
   height:  100%;
@@ -809,6 +809,9 @@ nav a:hover { color: #F9BAC0; }
     max-width: 66px;
   }
 
+  .balloons img {
+    width: 425px;
+  }
   .balloons:after {
     right: 9%;
     top: 0%;
@@ -872,9 +875,8 @@ nav a:hover { color: #F9BAC0; }
   }
 
   .pop {
-    left: -17vw;
     max-width: 1440px;
-    width: 100vw;
+    width: 100%;
   }
 
   .burger-smile {
@@ -1036,10 +1038,6 @@ nav a:hover { color: #F9BAC0; }
   .home-burger-balloon img {
     left: calc(50% - 47px);
     top: calc(50% - 47px);
-  }
-
-  .pop {
-    left: -245px;
   }
 
   .main-page {
