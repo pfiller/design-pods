@@ -16,7 +16,7 @@ pagecssclass: home
         <div class="home-image"><img src="{{ site.baseurl }}/img/me_thinking.svg" width="176" height="252" class="it-me"></div>
         <div>
           <h2>Designpods is <span>Lindsay Podrid.</span></h2>
-          <p>I&rsquo;m a freelance graphic designer and doughnut eater doing good work with nice people. I like the color yellow, large balloons, and nicely kerned type. I&rsquo;m currently working on a website redesign for a Fortune 50 company and a logo for my ficticious band, <em>Girl Squirrel</em>. Life and work are all about balance.</p>
+          <p>I&rsquo;m a freelance graphic designer and doughnut eater doing good work with nice people. I like the color yellow, large balloons, and nicely kerned type. I&rsquo;m currently working on a website redesign for a Fortune 50 company and a logo for my fictitious band, <em>Girl Squirrel</em>. Life and work are all about balance.</p>
           <p><a href="{{ site.baseurl }}/about" class="continue-link">Read More</a></p>
         </div>
       </div>
