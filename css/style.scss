@@ -617,6 +617,10 @@ nav a:hover { color: #F9BAC0; }
   padding: 30px 25px 0;
   position: relative;
 }
+.intro-section img {
+  height: auto;
+  max-width: 100%;
+}
 
 .about-hero {
   margin: 0 0 0 -50px;
