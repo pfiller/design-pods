@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Atlantic Station | Designpods
-headertext: Implementing a Rebrand
+headertext:  Implementing a Rebrand
 slug: atlantic-station
 thumb: sc_campus_thumb.jpg
 squiggle: 2
