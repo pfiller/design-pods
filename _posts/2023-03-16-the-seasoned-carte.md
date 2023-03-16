@@ -6,7 +6,7 @@ slug: the-seasoned-carte
 thumb: sc_campus_thumb.jpg
 squiggle: 2
 intro: |
-  <img src="../img/work/SC_Logo.svg" width="240" height="auto">
+  <img src="../img/work/SC_Logo.svg" width="200" height="auto">
 
   <p class="work-services">Paid Social<br>
   Art Direction<br>
