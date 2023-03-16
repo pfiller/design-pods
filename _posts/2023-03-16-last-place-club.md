@@ -6,7 +6,7 @@ slug: last-place-club
 thumb: sc_campus_thumb.jpg
 squiggle: 3
 intro: |
-  <img src="../img/work/LPC-logo.svg" width="280" height="auto">
+  <img src="../img/work/LPC-logo.svg" width="240" height="auto">
 
   <p class="work-services">Creative Direction<br>
   Art Direction<br>
